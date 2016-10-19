@@ -1,6 +1,9 @@
 package hello.controller;
 
+import hello.model.Comment;
 import hello.model.Post;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -17,9 +20,19 @@ import javax.validation.Valid;
 @Controller
 @RequestMapping("/posts")
 public class PostController {
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public String get(@PathVariable("id") long id, Model model) {
-        model.addAttribute("post", Data.getById(id));
+        model.addAttribute("post", this.jdbcTemplate.queryForObject(
+                "select * from post where id = ?", new Object[]{id},
+                (rs, rowNum) -> new Post(rs.getLong("id"), rs.getString("title"), rs.getString("content"), rs.getDate("created"))));
+
+        model.addAttribute("comments", this.jdbcTemplate.query(
+                "select * from comment where post = ?", new Object[]{id},
+                (rs, rowNum) -> new Comment(rs.getLong("id"), rs.getString("content"), rs.getDate("created"), rs.getLong("post"))));
+
         return "post";
     }
 
@@ -38,8 +51,9 @@ public class PostController {
         if (result.hasErrors()) {
             return "create";
         }
-        Post p = Data.add(post);
+        jdbcTemplate.update("insert into post(title, content, created) values (?, ?, ?)", post.getTitle(), post.getContent(), post.getCreated());
+        Long id = jdbcTemplate.queryForObject("select last_insert_id()", Long.class);
 
-        return "redirect:/posts/" + p.getId();
+        return "redirect:/posts/" + id;
     }
 }

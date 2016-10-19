@@ -1,5 +1,8 @@
 package hello.controller;
 
+import hello.model.Post;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,9 +13,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 public class IndexController {
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String index(Model model) {
-        model.addAttribute("posts", Data.posts);
+        model.addAttribute("posts", this.jdbcTemplate.query(
+                "select * from post",
+                (rs, rowNum) -> new Post(rs.getLong("id"), rs.getString("title"), rs.getString("content"), rs.getDate("created"))));
         return "index";
     }
 }

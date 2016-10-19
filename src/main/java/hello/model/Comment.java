@@ -1,37 +1,32 @@
 package hello.model;
 
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Date;
 
 /**
- * Created by W28L30 on 2016/10/12.
+ * Created by W28L30 on 2016/10/19.
  */
-public class Post {
+public class Comment {
     private Long id;
 
-    @Size(min=2, max=30)
-    private String title;
-
-    @Size(min=1)
+    @Size(min = 1)
     private String content;
 
     private Date created;
 
-    public Post() {
+    @NotNull
+    private Long post;
+
+    public Comment() {
         this.created = new Date();
     }
 
-    public Post(String title, String content) {
-        this.title = title;
-        this.content = content;
-        this.created = new Date();
-    }
-
-    public Post(Long id, String title, String content, Date created) {
+    public Comment(Long id, String content, Date created, Long post) {
         this.id = id;
-        this.title = title;
         this.content = content;
         this.created = created;
+        this.post = post;
     }
 
     public Long getId() {
@@ -40,14 +35,6 @@ public class Post {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
     }
 
     public String getContent() {
@@ -64,5 +51,13 @@ public class Post {
 
     public void setCreated(Date created) {
         this.created = created;
+    }
+
+    public Long getPost() {
+        return post;
+    }
+
+    public void setPost(Long post) {
+        this.post = post;
     }
 }
