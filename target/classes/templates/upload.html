@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>创建博文</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/sidbar.css"/>
+    <link rel="stylesheet" href="/css/blog.css"/>
+    <link rel="stylesheet" href="/css/highlight.css"/>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="page-header">
+        <h2>上传头像
+            <small>在这里创建自己的头像</small>
+        </h2>
+    </div>
+
+    <div class="row">
+
+        <div class="col-sm-8">
+
+            <form action="/avatar" method="post" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="file">头像</label>
+                    <input type="file" id="file" name="file"/>
+                </div>
+                <button type="submit" class="btn pull-right btn-primary">上传</button>
+            </form>
+
+        </div>
+
+        <div class="col-sm-3 col-sm-offset-1">
+            <div class="sidebar-module sidebar-module-inset">
+                <div class="avatar">
+                    <img class="img-circle img-rounded img-thumbnail avatar" src="/avatar"/>
+                    <div>
+                        <h4>Lorem</h4>
+                        <a>lorem@example.com</a>
+                    </div>
+                </div>
+                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in, nec placerat non.</p>
+            </div>
+            <div class="sidebar-module">
+                <h4>归档</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">2015年03月</a></li>
+                    <li><a href="#">2015年02月</a></li>
+                    <li><a href="#">2015年01月</a></li>
+                    <li><a href="#">2014年12月</a></li>
+                    <li><a href="#">2014年11月</a></li>
+                    <li><a href="#">2014年10月</a></li>
+                    <li><a href="#">2014年09月</a></li>
+                    <li><a href="#">2014年08月</a></li>
+                    <li><a href="#">2014年07月</a></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>

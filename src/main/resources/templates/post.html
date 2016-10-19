@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title th:text="${post.title}">Cum sociis</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/sidbar.css"/>
+    <link rel="stylesheet" href="/css/blog.css"/>
+    <link rel="stylesheet" href="/css/highlight.css"/>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-sm-8">
+            <div class="page-header">
+                <h2 th:text="${post.title}">Cum sociis</h2>
+                <p class="blog-post-meta" th:text="${#dates.format(post.created, 'yyyy-MM-dd')}">2015年2月3日 分组：<a href="#">Web开发</a></p>
+            </div>
+
+            <div class="post-content" th:text="${post.content}">
+            </div>
+
+            <nav>
+                <ul class="pager">
+                    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> 上一篇</a></li>
+                    <li class="next"><a href="#">下一篇 <span aria-hidden="true">&rarr;</span></a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+        <div class="col-sm-3 col-sm-offset-1">
+            <div class="sidebar-module sidebar-module-inset">
+                <div class="avatar">
+                    <img class="img-circle img-rounded img-thumbnail avatar" src="/img/catty.jpeg"/>
+                    <div>
+                        <h4>Lorem</h4>
+                        <a>lorem@example.com</a>
+                    </div>
+                </div>
+                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in, nec placerat non.</p>
+            </div>
+            <div class="sidebar-module">
+                <h4>归档</h4>
+                <ol class="list-unstyled">
+                    <li><a href="#">2015年03月</a></li>
+                    <li><a href="#">2015年02月</a></li>
+                    <li><a href="#">2015年01月</a></li>
+                    <li><a href="#">2014年12月</a></li>
+                    <li><a href="#">2014年11月</a></li>
+                    <li><a href="#">2014年10月</a></li>
+                    <li><a href="#">2014年09月</a></li>
+                    <li><a href="#">2014年08月</a></li>
+                    <li><a href="#">2014年07月</a></li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
