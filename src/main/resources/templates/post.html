@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
-<head>
+<head lang="en">
     <meta charset="UTF-8"/>
     <title th:text="${post.title}">Cum sociis</title>
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
@@ -20,7 +20,9 @@
         <div class="col-sm-8">
             <div class="page-header">
                 <h2 th:text="${post.title}">Cum sociis</h2>
-                <p class="blog-post-meta" th:text="${#dates.format(post.created, 'yyyy-MM-dd')}">2015年2月3日 分组：<a href="#">Web开发</a></p>
+
+                <p class="blog-post-meta" th:text="${#dates.format(post.created, 'yyyy-MM-dd')}">2015年2月3日 分组：<a
+                        href="#">Web开发</a></p>
             </div>
 
             <div class="post-content" th:text="${post.content}">
@@ -34,21 +36,25 @@
             </nav>
 
             <div class="col-sm-10">
-                <div class="blog-post" th:each="comment : ${comments}">
-                    <p class="blog-post-meta" th:text="${#dates.format(comment.created, 'yyyy-MM-dd')}">2015年2月3日</p>
-                    <p class="blog-post-content" th:text="${comment.content}">Amet risus. Dolor ultrices justo, praesent eos nisl lacus, consectetuer vitae lorem cras magna dolor, mauris libero turpis aliquam sed, at sapien tellus penatibus accumsan nec. Parturient amet felis morbi. Quis ac penatibus elementum lacus, vestibulum sem tellus arcu.</p>
+                <div class="blog-post" th:each="comment : ${post.comments}">
+                    <p class="blog-post-meta" th:text="${#dates.format(comment.created, 'yyyy-MM-dd HH:mm:ss')}">2015年2月3日</p>
+
+                    <p class="blog-post-content" th:text="${comment.content}">Amet risus. Dolor ultrices justo, praesent eos nisl
+                        lacus, consectetuer vitae lorem cras magna dolor, mauris libero turpis aliquam sed, at sapien tellus
+                        penatibus accumsan nec. Parturient amet felis morbi. Quis ac penatibus elementum lacus, vestibulum sem
+                        tellus arcu.</p>
                 </div>
             </div>
 
-            <form th:action="@{/comments}" method="post">
-                <input type="hidden" name="post" th:value="${post.id}"></input>
+            <form th:action="|/posts/${post.id}/comments|" method="post">
                 <div class="form-group">
                     <textarea name="content" id="new-comment" class="form-control"></textarea>
+
                     <div class="alert alert-danger" style="display: none;"></div>
                 </div>
 
                 <div class="form-group">
-                    <input type="submit" class="btn btn-primary" value="发布"></input>
+                    <input type="submit" class="btn btn-primary" value="发布"/>
                 </div>
             </form>
 
@@ -59,12 +65,14 @@
             <div class="sidebar-module sidebar-module-inset">
                 <div class="avatar">
                     <img class="img-circle img-rounded img-thumbnail avatar" src="/img/catty.jpeg"/>
+
                     <div>
                         <h4>Lorem</h4>
                         <a>lorem@example.com</a>
                     </div>
                 </div>
-                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in, nec placerat non.</p>
+                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in, nec
+                    placerat non.</p>
             </div>
             <div class="sidebar-module">
                 <h4>归档</h4>

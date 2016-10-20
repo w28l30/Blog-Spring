@@ -1,33 +1,23 @@
 package hello.model;
-
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 import java.util.Date;
 
-/**
- * Created by W28L30 on 2016/10/19.
- */
+import javax.persistence.*;
+import javax.validation.constraints.Size;
+
+@Entity
 public class Comment {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Size(min = 1)
     private String content;
 
-    private Date created;
+    private Date created = new Date();
 
-    @NotNull
-    private Long post;
-
-    public Comment() {
-        this.created = new Date();
-    }
-
-    public Comment(Long id, String content, Date created, Long post) {
-        this.id = id;
-        this.content = content;
-        this.created = created;
-        this.post = post;
-    }
+    @ManyToOne
+    private Post post;
 
     public Long getId() {
         return id;
@@ -53,11 +43,12 @@ public class Comment {
         this.created = created;
     }
 
-    public Long getPost() {
+    public Post getPost() {
         return post;
     }
 
-    public void setPost(Long post) {
+    public void setPost(Post post) {
         this.post = post;
     }
+
 }

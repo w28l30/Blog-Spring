@@ -2,6 +2,10 @@ package hello.controller;
 
 import hello.model.Comment;
 import hello.model.Post;
+import hello.repository.CommentRepository;
+import hello.repository.PostRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
@@ -20,18 +24,27 @@ import javax.validation.Valid;
 @Controller
 @RequestMapping("/posts")
 public class PostController {
+
+    public static final Logger logger = LoggerFactory.getLogger(PostController.class);
+
     @Autowired
-    private JdbcTemplate jdbcTemplate;
+//    private JdbcTemplate jdbcTemplate;
+    private PostRepository postRepository;
+    @Autowired
+    private CommentRepository commentRepository;
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public String get(@PathVariable("id") long id, Model model) {
-        model.addAttribute("post", this.jdbcTemplate.queryForObject(
-                "select * from post where id = ?", new Object[]{id},
-                (rs, rowNum) -> new Post(rs.getLong("id"), rs.getString("title"), rs.getString("content"), rs.getDate("created"))));
+//        model.addAttribute("post", this.jdbcTemplate.queryForObject(
+//                "select * from post where id = ?", new Object[]{id},
+//                (rs, rowNum) -> new Post(rs.getLong("id"), rs.getString("title"), rs.getString("content"), rs.getDate("created"))));
+        Post post = postRepository.findOne(id);
+        logger.info("post comments size = {}", post.getComments().size());
+        model.addAttribute("post", post);
 
-        model.addAttribute("comments", this.jdbcTemplate.query(
-                "select * from comment where post = ?", new Object[]{id},
-                (rs, rowNum) -> new Comment(rs.getLong("id"), rs.getString("content"), rs.getDate("created"), rs.getLong("post"))));
+//        model.addAttribute("comments", this.jdbcTemplate.query(
+//                "select * from comment where post = ?", new Object[]{id},
+//                (rs, rowNum) -> new Comment(rs.getLong("id"), rs.getString("content"), rs.getDate("created"), rs.getLong("post"))));
 
         return "post";
     }
@@ -51,9 +64,22 @@ public class PostController {
         if (result.hasErrors()) {
             return "create";
         }
-        jdbcTemplate.update("insert into post(title, content, created) values (?, ?, ?)", post.getTitle(), post.getContent(), post.getCreated());
-        Long id = jdbcTemplate.queryForObject("select last_insert_id()", Long.class);
+        post = postRepository.save(post);
+//        jdbcTemplate.update("insert into post(title, content, created) values (?, ?, ?)", post.getTitle(), post.getContent(), post.getCreated());
+//        Long id = jdbcTemplate.queryForObject("select last_insert_id()", Long.class);
 
-        return "redirect:/posts/" + id;
+        return "redirect:/posts/" + post.getId();
+    }
+
+    @RequestMapping(value = "/{postId}/comments", method = RequestMethod.POST)
+    public String createComment(@PathVariable("postId") long id, @Valid Comment comment, BindingResult result) {
+        if (result.hasErrors()) {
+            return "redirect:/posts/" + comment.getPost();
+        }
+        logger.info("comment = {}, {}", comment.getId(), comment.getContent());
+        Post post = postRepository.getOne(id);
+        comment.setPost(post);
+        commentRepository.save(comment);
+        return "redirect:/posts/{postId}";
     }
 }

@@ -1,12 +1,17 @@
 package hello.model;
 
+import javax.persistence.*;
 import javax.validation.constraints.Size;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by W28L30 on 2016/10/12.
  */
+@Entity
 public class Post {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Size(min=2, max=30)
@@ -16,6 +21,9 @@ public class Post {
     private String content;
 
     private Date created;
+
+    @OneToMany(mappedBy = "post")
+    private List<Comment> comments;
 
     public Post() {
         this.created = new Date();
@@ -64,5 +72,13 @@ public class Post {
 
     public void setCreated(Date created) {
         this.created = created;
+    }
+
+    public List<Comment> getComments() {
+        return comments;
+    }
+
+    public void setComments(List<Comment> comments) {
+        this.comments = comments;
     }
 }
