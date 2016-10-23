@@ -16,7 +16,7 @@ public interface CommentMapper {
     void saveComment(Comment comment);
 
 
-    @Select("SELECT comment.id, comment.content, comment.created FROM comment WHERE id = #{id}")
+    @Select("SELECT comment.id, comment.content, comment.created FROM post, comment WHERE post.id = #{id}")
     @Results (value = {
             @Result(id = true, column = "id", property = "id"),
             @Result(column = "content", property = "content"),

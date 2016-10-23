@@ -34,5 +34,6 @@ public interface PostMapper {
     Post getPostById(long id);
 
     @Insert("INSERT INTO post (title, content, created) VALUES (#{title}, #{content}, #{created})")
+    @Options(useGeneratedKeys = true)
     void savePost(Post post);
 }
