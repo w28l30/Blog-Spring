@@ -2,10 +2,7 @@ package hello.mapper;
 
 import hello.model.Comment;
 import hello.model.Post;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
+import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
@@ -17,4 +14,13 @@ public interface CommentMapper {
 
     @Insert("INSERT INTO COMMENT (content, created, post_id) VALUES (#{content}, #{created}, #{post.id})")
     void saveComment(Comment comment);
+
+
+    @Select("SELECT comment.id, comment.content, comment.created FROM comment WHERE id = #{id}")
+    @Results (value = {
+            @Result(id = true, column = "id", property = "id"),
+            @Result(column = "content", property = "content"),
+            @Result(column = "created", property = "created"),
+    })
+    List<Comment> getComments(long id);
 }
