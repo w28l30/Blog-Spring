@@ -14,8 +14,8 @@ public class Data {
 
     public static List<Post> posts = new ArrayList<>();
     static {
-        posts.add(new Post("title1", "content1"));
-        posts.add(new Post("title2", "content2"));
+//        posts.add(new Post("title1", "content1"));
+//        posts.add(new Post("title2", "content2"));
     }
 
     public static Post getById(long id) {
@@ -26,7 +26,7 @@ public class Data {
     }
 
     public static void add(String title, String content) {
-        posts.add(new Post(title, content));
+//        posts.add(new Post(title, content));
     }
 
     public static Post add(Post post) {

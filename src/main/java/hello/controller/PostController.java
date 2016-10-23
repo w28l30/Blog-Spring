@@ -2,12 +2,11 @@ package hello.controller;
 
 import hello.model.Comment;
 import hello.model.Post;
-import hello.repository.CommentRepository;
-import hello.repository.PostRepository;
+import hello.service.CommentService;
+import hello.service.PostService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -29,16 +28,16 @@ public class PostController {
 
     @Autowired
 //    private JdbcTemplate jdbcTemplate;
-    private PostRepository postRepository;
+    private PostService postService;
     @Autowired
-    private CommentRepository commentRepository;
+    private CommentService commentService;
 
     @RequestMapping(value = "/{id}", method = RequestMethod.GET)
     public String get(@PathVariable("id") long id, Model model) {
 //        model.addAttribute("post", this.jdbcTemplate.queryForObject(
 //                "select * from post where id = ?", new Object[]{id},
 //                (rs, rowNum) -> new Post(rs.getLong("id"), rs.getString("title"), rs.getString("content"), rs.getDate("created"))));
-        Post post = postRepository.findOne(id);
+        Post post = postService.getById(id);
         logger.info("post comments size = {}", post.getComments().size());
         model.addAttribute("post", post);
 
@@ -64,7 +63,7 @@ public class PostController {
         if (result.hasErrors()) {
             return "create";
         }
-        post = postRepository.save(post);
+        postService.save(post);
 //        jdbcTemplate.update("insert into post(title, content, created) values (?, ?, ?)", post.getTitle(), post.getContent(), post.getCreated());
 //        Long id = jdbcTemplate.queryForObject("select last_insert_id()", Long.class);
 
@@ -77,9 +76,9 @@ public class PostController {
             return "redirect:/posts/" + comment.getPost();
         }
         logger.info("comment = {}, {}", comment.getId(), comment.getContent());
-        Post post = postRepository.getOne(id);
+        Post post = postService.getById(id);
         comment.setPost(post);
-        commentRepository.save(comment);
+        commentService.saveComment(comment);
         return "redirect:/posts/{postId}";
     }
 }
