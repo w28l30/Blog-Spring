@@ -12,15 +12,15 @@ import java.util.List;
 @Mapper
 public interface CommentMapper {
 
-    @Insert("INSERT INTO COMMENT (content, created, post_id) VALUES (#{content}, #{created}, #{post.id})")
+//    @Insert("INSERT INTO COMMENT (content, created, post_id) VALUES (#{content}, #{created}, #{post.id})")
     void saveComment(Comment comment);
 
 
-    @Select("SELECT comment.id, comment.content, comment.created FROM post, comment WHERE post.id = #{id}")
-    @Results (value = {
-            @Result(id = true, column = "id", property = "id"),
-            @Result(column = "content", property = "content"),
-            @Result(column = "created", property = "created"),
-    })
-    List<Comment> getComments(long id);
+//    @Select("SELECT comment.id, comment.content, comment.created FROM post, comment WHERE comment.post_id = post.id AND post.id = #{id}")
+//    @Results (value = {
+//            @Result(id = true, column = "id", property = "id"),
+//            @Result(column = "content", property = "content"),
+//            @Result(column = "created", property = "created"),
+//    })
+//    List<Comment> getComments(long id);
 }

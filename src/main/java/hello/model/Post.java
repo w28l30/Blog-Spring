@@ -6,6 +6,7 @@ import lombok.Setter;
 import javax.validation.constraints.Size;
 import java.util.Date;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by W28L30 on 2016/10/12.
@@ -23,6 +24,8 @@ public class Post {
     private Date created;
 
     private List<Comment> comments;
+
+//    private Set<Tag> tags;
 
     public Post() {
         this.created = new Date();

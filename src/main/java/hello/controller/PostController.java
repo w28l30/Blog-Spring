@@ -73,7 +73,7 @@ public class PostController {
     @RequestMapping(value = "/{postId}/comments", method = RequestMethod.POST)
     public String createComment(@PathVariable("postId") long id, @Valid Comment comment, BindingResult result) {
         if (result.hasErrors()) {
-            return "redirect:/posts/" + comment.getPost();
+            return "redirect:/posts/" + comment.getPost().getId();
         }
         logger.info("comment = {}, {}", comment.getId(), comment.getContent());
         Post post = postService.getById(id);

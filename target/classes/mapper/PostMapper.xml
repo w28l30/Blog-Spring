@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="hello.mapper.PostMapper" >
+    <!--    result maps     -->
+    <resultMap id="PostResultMap" type="hello.model.Post" >
+        <id column="id" property="id"  />
+        <result column="title" property="title" />
+        <result column="content" property="content" />
+        <result column="created" property="created" />
+        <!--    collections of comments     -->
+        <collection property="comments" ofType="hello.model.Comment"
+                    column="id" select="selectCommentFromPost" />
+        <!--    collections of tags     -->
+    </resultMap>
+
+    <select id="getAllPosts" resultMap="PostResultMap">
+        SELECT
+        id,
+        title,
+        content,
+        created
+        FROM
+        post
+    </select>
+
+
+    <!--    one to many select  -->
+    <select id="getPostById" resultMap="PostResultMap" parameterType="java.lang.Long" resultType="hello.model.Post">
+        SELECT
+        id,
+        title,
+        content,
+        created
+        FROM
+        post
+        WHERE id = #{id}
+    </select>
+
+    <select id="selectCommentFromPost"
+            parameterType="java.lang.Long"
+            resultType="hello.model.Comment">
+        SELECT
+        id,
+        content,
+        created
+        FROM
+        comment
+        WHERE
+        post_id = #{id}
+    </select>
+
+    <insert id="savePost" parameterType="hello.model.Post">
+        INSERT INTO post
+        (
+        title, content, created
+        )
+        VALUES
+        (
+        #{title}, #{content}, #{created}
+        )
+    </insert>
+</mapper>

@@ -17,7 +17,7 @@ public class PostService {
     private PostMapper postMapper;
 
     public List<Post> getAll() {
-        return postMapper.getAllPost();
+        return postMapper.getAllPosts();
     }
 
     public void save(Post post) {
