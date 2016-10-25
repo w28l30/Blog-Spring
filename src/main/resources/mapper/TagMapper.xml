@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="hello.mapper.TagMapper" >
+    <!--    result maps     -->
+    <resultMap id="TAGResultMap" type="hello.model.Tag" >
+        <id column="id" property="id"  />
+        <result column="name" property="name" />
+    </resultMap>
+
+    <select id="findTagByName" parameterType="java.lang.String" resultType="hello.model.Tag">
+        SELECT * FROM tag t
+        WHERE t.name = #{name}
+    </select>
+
+    <insert id="saveTag" parameterType="hello.model.Tag" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+        INSERT INTO tag
+        (
+        name
+        )
+        VALUES
+        (
+        #{name}
+        )
+    </insert>
+</mapper>

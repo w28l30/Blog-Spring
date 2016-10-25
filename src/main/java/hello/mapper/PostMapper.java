@@ -1,6 +1,7 @@
 package hello.mapper;
 
 import hello.model.Post;
+import hello.model.Tag;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
@@ -37,4 +38,5 @@ public interface PostMapper {
 //    @Options(useGeneratedKeys = true)
     void savePost(Post post);
 
+    void insertPostTags(Post post);
 }

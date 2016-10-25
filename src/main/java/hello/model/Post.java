@@ -25,7 +25,7 @@ public class Post {
 
     private List<Comment> comments;
 
-//    private Set<Tag> tags;
+    private Set<Tag> tags;
 
     public Post() {
         this.created = new Date();

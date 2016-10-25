@@ -11,6 +11,8 @@
         <collection property="comments" ofType="hello.model.Comment"
                     column="id" select="selectCommentFromPost" />
         <!--    collections of tags     -->
+        <collection property="tags" ofType="hello.model.Tag"
+                    column="id" select="selectTagFromPost" />
     </resultMap>
 
     <select id="getAllPosts" resultMap="PostResultMap">
@@ -49,6 +51,22 @@
         post_id = #{id}
     </select>
 
+    <select id="selectTagFromPost"
+            parameterType="java.lang.Long"
+            resultType="hello.model.Tag">
+        SELECT
+        t.id,
+        t.name
+        FROM
+        post p
+        LEFT JOIN post_tag pt
+        ON pt.post_id = p.id
+        LEFT JOIN tag t
+        ON pt.tag_id = t.id
+        WHERE
+        post_id = #{id}
+    </select>
+
     <insert id="savePost" parameterType="hello.model.Post">
         INSERT INTO post
         (
@@ -58,5 +76,16 @@
         (
         #{title}, #{content}, #{created}
         )
+    </insert>
+
+    <insert id="insertPostTags" parameterType="hello.model.Post">
+        INSERT INTO post_tag
+        (
+        post_id, tag_id
+        )
+        VALUES
+        <foreach collection="tags" item="item" index="index" separator=",">
+            (#{id}, #{item.id})
+        </foreach>
     </insert>
 </mapper>
