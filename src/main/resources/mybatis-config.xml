@@ -9,5 +9,6 @@
         <mapper resource="mapper/CommentMapper.xml"/>
         <mapper resource="mapper/PostMapper.xml"/>
         <mapper resource="mapper/TagMapper.xml"/>
+        <mapper resource="mapper/UserMapper.xml"/>
     </mappers>
 </configuration>

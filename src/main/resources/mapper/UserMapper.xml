@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="hello.mapper.UserMapper" >
+    <!--    result maps     -->
+    <resultMap id="UserResultMap" type="hello.model.User" >
+        <id column="id" property="id"  />
+        <result column="email" property="email" />
+        <result column="password" property="password" />
+        <result column="role" property="role" />
+        <result column="createdAt" property="createdAt" />
+        <result column="updatedAt" property="updatedAt" />
+    </resultMap>
+
+    <select id="findUserByEmail" parameterType="java.lang.String" resultType="hello.model.User">
+        SELECT * FROM users
+        WHERE email = #{email}
+    </select>
+
+    <insert id="saveUser" parameterType="hello.model.User" useGeneratedKeys="true" keyColumn="id" keyProperty="id">
+        INSERT INTO users
+        (email, password, role, createdAt, updatedAt)
+        VALUE
+        (#{email}, #{password}, #{role}, #{createdAt}, #{updatedAt})
+    </insert>
+
+</mapper>

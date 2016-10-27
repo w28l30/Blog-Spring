@@ -12,13 +12,12 @@ import java.util.Set;
  * Created by W28L30 on 2016/10/12.
  */
 @Getter @Setter
-public class Post {
-    private Long id;
+public class Post extends BaseModel {
 
-    @Size(min=2, max=30)
+    @Size(min = 2, max = 30)
     private String title;
 
-    @Size(min=1)
+    @Size(min = 1)
     private String content;
 
     private Date created;
@@ -37,10 +36,4 @@ public class Post {
         this.created = new Date();
     }
 
-    public Post(Long id, String title, String content, Date created) {
-        this.id = id;
-        this.title = title;
-        this.content = content;
-        this.created = created;
-    }
 }

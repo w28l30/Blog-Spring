@@ -28,7 +28,7 @@ public class TestTag {
     @Autowired
     private TagService tagService;
 
-    @Test
+//    @Test
     public void addPostTag() {
         Post post = postService.getById(8);
 
@@ -43,7 +43,7 @@ public class TestTag {
         postService.insertPostTags(post);
     }
 
-    @Test
+//    @Test
     public void getTags() {
         Post post = postService.getById(8);
         Set<Tag> tags = post.getTags();
