@@ -25,18 +25,18 @@ public class LoginController extends WebMvcConfigurerAdapter {
         return "login";
     }
 
-    @RequestMapping(value = "", method = RequestMethod.POST)
-    public String login(@RequestParam("username") String username,
-                        @RequestParam("password") String password,
-                        @RequestParam("next") Optional<String> next,
-                        HttpSession session, Model model) {
-        logger.info("next = {}", next.orElse("/"));
-        if ("admin".equals(username) && "password".equals(password)) {
-            logger.info("login successfully");
-            session.setAttribute("root", true);
-            return "redirect:".concat(next.orElse("/"));
-        }
-        model.addAttribute("fail", true);
-        return "login";
-    }
+//    @RequestMapping(value = "", method = RequestMethod.POST)
+//    public String login(@RequestParam("username") String username,
+//                        @RequestParam("password") String password,
+//                        @RequestParam("next") Optional<String> next,
+//                        HttpSession session, Model model) {
+//        logger.info("next = {}", next.orElse("/"));
+//        if ("admin".equals(username) && "password".equals(password)) {
+//            logger.info("login successfully");
+//            session.setAttribute("root", true);
+//            return "redirect:".concat(next.orElse("/"));
+//        }
+//        model.addAttribute("fail", true);
+//        return "login";
+//    }
 }

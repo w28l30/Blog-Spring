@@ -1,7 +1,7 @@
 package hello;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+        import org.springframework.boot.SpringApplication;
+        import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Created by W28L30 on 2016/10/12.

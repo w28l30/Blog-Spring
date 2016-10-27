@@ -67,7 +67,7 @@
         post_id = #{id}
     </select>
 
-    <insert id="savePost" parameterType="hello.model.Post">
+    <insert id="savePost" parameterType="hello.model.Post" keyProperty="id" useGeneratedKeys="true" keyColumn="id">
         INSERT INTO post
         (
         title, content, created
