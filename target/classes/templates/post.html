@@ -46,6 +46,16 @@
                 </div>
             </div>
 
+            <div class="col-sm-10">
+                <div class="blog-post" th:each="tag : ${post.tags}">
+
+                    <p class="blog-post-tag" th:text="${tag.name}">Amet risus. Dolor ultrices justo, praesent eos nisl
+                        lacus, consectetuer vitae lorem cras magna dolor, mauris libero turpis aliquam sed, at sapien tellus
+                        penatibus accumsan nec. Parturient amet felis morbi. Quis ac penatibus elementum lacus, vestibulum sem
+                        tellus arcu.</p>
+                </div>
+            </div>
+
             <form th:action="|/posts/${post.id}/comments|" method="post">
                 <div class="form-group">
                     <textarea name="content" id="new-comment" class="form-control"></textarea>

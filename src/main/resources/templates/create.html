@@ -25,13 +25,19 @@
 
         <div class="col-sm-8">
 
-            <form action="/posts/" method="post" th:object="${post}">
+            <form action="/posts/" method="post" th:object="${postForm}">
                 <div class="form-group">
                     <label for="title">标题</label>
                     <input type="text" class="form-control"
                            id="title" name="title" th:field="*{title}"
                            placeholder="文章的标题" autofocus=""/>
                     <p th:if="${#fields.hasErrors('title')}" th:errors="*{title}">标题长度必须在2-30之间</p>
+                </div>
+                <div class="form-group">
+                    <label for="tags">标签</label>
+                    <input type="text" class="form-control"
+                           id="tags" name="tags" th:field="*{tags}"
+                           placeholder="标签" autofocus=""/>
                 </div>
                 <div class="form-group">
                     <label for="content">内容</label>

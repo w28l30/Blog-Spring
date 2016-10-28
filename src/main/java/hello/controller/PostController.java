@@ -2,8 +2,10 @@ package hello.controller;
 
 import hello.model.Comment;
 import hello.model.Post;
+import hello.model.support.PostForm;
 import hello.service.CommentService;
 import hello.service.PostService;
+import hello.utils.DTOUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +37,7 @@ public class PostController {
     public String get(@PathVariable("id") long id, Model model) {
         Post post = postService.getById(id);
         logger.info("post comments size = {}", post.getComments().size());
+        logger.info("post tags size = {}", post.getTags().size());
         model.addAttribute("post", post);
 
         return "post";
@@ -46,16 +49,19 @@ public class PostController {
 //            return "redirect:/";
 //        }
 
-        model.addAttribute("post", new Post());
+        model.addAttribute("postForm", new PostForm());
         return "create";
     }
 
     @RequestMapping(value = "/", method = RequestMethod.POST)
-    public String create(@Valid Post post, BindingResult result) {
+    public String create(@Valid PostForm postForm, BindingResult result) {
         if (result.hasErrors()) {
             return "create";
         }
+        Post post = DTOUtil.map(postForm, Post.class);
+        post.setTags(postService.parseTagNames(postForm.getTags()));
         postService.save(post);
+        postService.insertPostTags(post);
 
         return "redirect:/posts/" + post.getId();
     }

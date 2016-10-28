@@ -1,13 +1,17 @@
 package hello.service;
 
+import hello.controller.PostController;
 import hello.mapper.PostMapper;
 import hello.model.Post;
 import hello.model.Tag;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by W28L30 on 2016/10/22.
@@ -20,6 +24,8 @@ public class PostService {
 
     @Autowired
     private TagService tagService;
+
+    public static final Logger logger = LoggerFactory.getLogger(PostService.class);
 
     public List<Post> getAll() {
         return postMapper.getAllPosts();
@@ -37,12 +43,13 @@ public class PostService {
         postMapper.insertPostTags(post);
     }
 
-    public List<Tag> parseTagNames(String tagNames) {
-        List<Tag> tags = new ArrayList<Tag>();
+    public Set<Tag> parseTagNames(String tagNames) {
+        Set<Tag> tags = new HashSet<>();
         if (tagNames != null && !tagNames.isEmpty()) {
             tagNames = tagNames.toLowerCase();
             String[] names = tagNames.split("\\s*, \\s*");
             for (String name : names) {
+                logger.info("Tag name: {}", name);
                 tags.add(tagService.findOrCreateByName(name));
             }
         }

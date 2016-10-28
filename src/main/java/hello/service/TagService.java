@@ -5,6 +5,8 @@ import hello.model.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * Created by W28L30 on 2016/10/25.
  */
@@ -20,5 +22,9 @@ public class TagService {
             tagMapper.saveTag(tag);
         }
         return tag;
+    }
+
+    public List<Tag> getAllTags() {
+        return tagMapper.getAllTags();
     }
 }
