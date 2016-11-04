@@ -14,6 +14,11 @@
         <collection property="tags" ofType="hello.model.Tag"
                     column="id" select="selectTagFromPost" />
     </resultMap>
+    
+    <resultMap id="postCountByTag" type="TagWithCount">
+        <result column="tag_count" property="count"></result>
+        <result column="name" property="name"></result>
+    </resultMap>
 
     <select id="getAllPosts" resultMap="PostResultMap">
         SELECT
@@ -65,6 +70,19 @@
         ON pt.tag_id = t.id
         WHERE
         post_id = #{id}
+    </select>
+
+    <select id="countPostsByTags" resultMap="postCountByTag">
+        SELECT
+        t.name, count(post_id)
+        AS tag_count
+        FROM post_tag pt
+        INNER JOIN tag t
+        WHERE t.id = pt.tag_id
+        GROUP BY t.id
+        ORDER BY
+        tag_count
+        DESC;
     </select>
 
     <insert id="savePost" parameterType="hello.model.Post" keyProperty="id" useGeneratedKeys="true" keyColumn="id">

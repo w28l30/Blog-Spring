@@ -1,9 +1,11 @@
 package hello.service;
 
+import com.github.pagehelper.PageHelper;
 import hello.controller.PostController;
 import hello.mapper.PostMapper;
 import hello.model.Post;
 import hello.model.Tag;
+import hello.model.support.TagWithCount;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +30,7 @@ public class PostService {
     public static final Logger logger = LoggerFactory.getLogger(PostService.class);
 
     public List<Post> getAll() {
+        PageHelper.startPage(1, 10);
         return postMapper.getAllPosts();
     }
 
@@ -54,5 +57,9 @@ public class PostService {
             }
         }
         return tags;
+    }
+
+    public List<TagWithCount> countPostsByTags() {
+        return postMapper.countPostsByTags();
     }
 }

@@ -3,6 +3,7 @@ package Test;
 import hello.Application;
 import hello.model.Post;
 import hello.model.Tag;
+import hello.model.support.TagWithCount;
 import hello.service.PostService;
 import hello.service.TagService;
 import org.junit.Test;
@@ -12,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -48,5 +50,13 @@ public class TestTag {
         Post post = postService.getById(8);
         Set<Tag> tags = post.getTags();
         log.info("Tag size: {}", tags.size());
+    }
+
+    @Test
+    public void testCountPostByTag() {
+        List<TagWithCount> list = postService.countPostsByTags();
+        for (TagWithCount t : list) {
+            log.info("name: {}, size {}", t.getName(), t.getCount());
+        }
     }
 }
