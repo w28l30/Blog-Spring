@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>文章列表</title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/sidbar.css"/>
+    <link rel="stylesheet" href="/css/blog.css"/>
+    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="blog-post" th:each="post : ${posts}">
+                    <h3 class="blog-post-title">
+                        <a th:href="@{'/posts/'+${post.id}}"
+                           th:text="${post.title}">Lorem ipsum dolor sit amet</a>
+                    </h3>
+                    <p class="blog-post-meta" th:text="${#dates.format(post.created, 'yyyy-MM-dd')}">2015年2月3日</p>
+                    <p class="blog-post-content" th:text="${post.content}">Amet risus. Dolor ultrices justo, praesent eos nisl lacus, consectetuer vitae lorem cras magna dolor, mauris libero turpis aliquam sed, at sapien tellus penatibus accumsan nec. Parturient amet felis morbi. Quis ac penatibus elementum lacus, vestibulum sem tellus arcu.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

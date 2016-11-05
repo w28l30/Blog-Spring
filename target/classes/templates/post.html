@@ -30,8 +30,8 @@
 
             <nav>
                 <ul class="pager">
-                    <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> 上一篇</a></li>
-                    <li class="next"><a href="#">下一篇 <span aria-hidden="true">&rarr;</span></a></li>
+                    <li class="previous"><a th:href="@{'/posts/previousPage/'+${post.id}}"><span aria-hidden="true">&larr;</span> 上一篇</a></li>
+                    <li class="next"><a th:href="@{'/posts/nextPage/'+${post.id}}">下一篇 <span aria-hidden="true">&rarr;</span></a></li>
                 </ul>
             </nav>
 

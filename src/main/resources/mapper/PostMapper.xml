@@ -30,6 +30,22 @@
         post
     </select>
 
+    <select id="getPostsByTag" resultMap="PostResultMap" parameterType="java.lang.String">
+        SELECT
+        p.id,
+        p.title,
+        p.content,
+        p.created
+        FROM
+        post p
+        LEFT JOIN post_tag pt
+        ON pt.post_id = p.id
+        LEFT JOIN tag t
+        ON pt.tag_id = t.id
+        WHERE
+        t.name = #{tagName}
+    </select>
+
 
     <!--    one to many select  -->
     <select id="getPostById" resultMap="PostResultMap" parameterType="java.lang.Long" resultType="hello.model.Post">

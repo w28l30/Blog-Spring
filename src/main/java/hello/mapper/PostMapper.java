@@ -42,4 +42,6 @@ public interface PostMapper {
     void insertPostTags(Post post);
 
     List<TagWithCount> countPostsByTags();
+
+    List<Post> getPostsByTag(String tagName);
 }

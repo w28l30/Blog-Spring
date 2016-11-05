@@ -66,15 +66,33 @@ public class PostController {
         return "redirect:/posts/" + post.getId();
     }
 
-    @RequestMapping(value = "/{postId}/comments", method = RequestMethod.POST)
+    @RequestMapping(value = "/{postId}/comments", method = RequestMethod.GET)
     public String createComment(@PathVariable("postId") long id, @Valid Comment comment, BindingResult result) {
         if (result.hasErrors()) {
-            return "redirect:/posts/" + comment.getPost().getId();
+            return "redirect:/posts/" + id;
         }
         logger.info("comment = {}, {}", comment.getId(), comment.getContent());
         Post post = postService.getById(id);
         comment.setPost(post);
         commentService.saveComment(comment);
+        return "redirect:/posts/{postId}";
+    }
+
+    @RequestMapping(value = "/previousPage/{postId}", method = RequestMethod.GET)
+    public String previousPage(@PathVariable("postId") long id) {
+        Post previousPost = postService.getById(id - 1);
+        if (previousPost != null) {
+            return "redirect:/posts/" + (id - 1);
+        }
+        return "redirect:/posts/{postId}";
+    }
+
+    @RequestMapping(value = "/nextPage/{postId}", method = RequestMethod.GET)
+    public String nextPage(@PathVariable("postId") long id) {
+        Post previousPost = postService.getById(id + 1);
+        if (previousPost != null) {
+            return "redirect:/posts/" + (id + 1);
+        }
         return "redirect:/posts/{postId}";
     }
 }

@@ -52,7 +52,7 @@ public class TestTag {
         log.info("Tag size: {}", tags.size());
     }
 
-    @Test
+//    @Test
     public void testCountPostByTag() {
         List<TagWithCount> list = postService.countPostsByTags();
         for (TagWithCount t : list) {

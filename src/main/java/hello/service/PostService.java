@@ -62,4 +62,8 @@ public class PostService {
     public List<TagWithCount> countPostsByTags() {
         return postMapper.countPostsByTags();
     }
+
+    public List<Post> getPostsByTag(String tagName) {
+        return postMapper.getPostsByTag(tagName);
+    }
 }
