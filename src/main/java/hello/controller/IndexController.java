@@ -1,11 +1,17 @@
 package hello.controller;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+import hello.model.Post;
 import hello.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.List;
 
 /**
  * Created by W28L30 on 2016/10/18.
@@ -16,11 +22,17 @@ public class IndexController {
     private PostService postService;
 
     @RequestMapping(value = "", method = RequestMethod.GET)
-    public String index(Model model) {
+    public String index(@RequestParam(defaultValue = "1") int page, Model model) {
 //        model.addAttribute("posts", this.jdbcTemplate.query(
 //                "select * from post",
 //                (rs, rowNum) -> new Post(rs.getLong("id"), rs.getString("title"), rs.getString("content"), rs.getDate("created"))));
-        model.addAttribute("posts", postService.getAll());
+        PageHelper.startPage(page, 10);
+        List<Post> posts = postService.getAll();
+        PageInfo pageInfo = new PageInfo(posts);
+
+        model.addAttribute("posts", posts);
+        model.addAttribute("totalPages", pageInfo.getPages());
+        model.addAttribute("page", page);
         return "index";
     }
 }

@@ -30,7 +30,6 @@ public class PostService {
     public static final Logger logger = LoggerFactory.getLogger(PostService.class);
 
     public List<Post> getAll() {
-        PageHelper.startPage(1, 10);
         return postMapper.getAllPosts();
     }
 

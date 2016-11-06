@@ -42,7 +42,6 @@ public class TagController {
             throw new NotFoundException("Tag " + tagName + " is not found.");
         }
 
-        page = page < 1 ? 1 : page;
         PageHelper.startPage(page, 10);
 
 

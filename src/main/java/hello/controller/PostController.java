@@ -43,29 +43,6 @@ public class PostController {
         return "post";
     }
 
-    @RequestMapping(value = "/create", method = RequestMethod.GET)
-    public String showCreatePage(Model model, HttpSession session) {
-//        if (session.getAttribute("root") == null) {
-//            return "redirect:/";
-//        }
-
-        model.addAttribute("postForm", new PostForm());
-        return "create";
-    }
-
-    @RequestMapping(value = "/", method = RequestMethod.POST)
-    public String create(@Valid PostForm postForm, BindingResult result) {
-        if (result.hasErrors()) {
-            return "create";
-        }
-        Post post = DTOUtil.map(postForm, Post.class);
-        post.setTags(postService.parseTagNames(postForm.getTags()));
-        postService.save(post);
-        postService.insertPostTags(post);
-
-        return "redirect:/posts/" + post.getId();
-    }
-
     @RequestMapping(value = "/{postId}/comments", method = RequestMethod.GET)
     public String createComment(@PathVariable("postId") long id, @Valid Comment comment, BindingResult result) {
         if (result.hasErrors()) {

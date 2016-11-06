@@ -8,7 +8,7 @@ import javax.persistence.*;
 import javax.validation.constraints.Size;
 
 @Data
-public class Comment {
+public class Comment extends BaseModel {
 
     private Long id;
 
