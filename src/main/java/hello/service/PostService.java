@@ -58,11 +58,35 @@ public class PostService {
         return tags;
     }
 
+    public String getTagNames(Set<Tag> tags) {
+        if (tags == null || tags.isEmpty())
+            return "";
+
+
+        StringBuilder names = new StringBuilder();
+        tags.forEach(tag -> names.append(tag.getName()).append(","));
+        names.deleteCharAt(names.length() - 1);
+
+        return names.toString();
+    }
+
     public List<TagWithCount> countPostsByTags() {
         return postMapper.countPostsByTags();
     }
 
     public List<Post> getPostsByTag(String tagName) {
         return postMapper.getPostsByTag(tagName);
+    }
+
+    public void deletePost(Long postId) {
+        postMapper.deletePostById(postId);
+    }
+
+    public void deletePostTags(Long postId) {
+        postMapper.deletePostTags(postId);
+    }
+
+    public void update(Post post) {
+        postMapper.updatePost(post);
     }
 }

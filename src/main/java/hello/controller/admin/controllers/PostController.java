@@ -3,6 +3,7 @@ package hello.controller.admin.controllers;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import hello.model.Post;
+import hello.model.Tag;
 import hello.model.support.PostForm;
 import hello.service.PostService;
 import hello.utils.DTOUtil;
@@ -12,13 +13,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.List;
+import java.util.Set;
 
 /**
  * Created by W28L30 on 2016/11/5.
@@ -35,13 +37,9 @@ public class PostController {
     private PostService postService;
 
     @RequestMapping(value = "/create", method = RequestMethod.GET)
-    public String showCreatePage(Model model, HttpSession session) {
-//        if (session.getAttribute("root") == null) {
-//            return "redirect:/";
-//        }
-
+    public String showCreatePage(Model model) {
         model.addAttribute("postForm", new PostForm());
-        return "create";
+        return "admin/posts/create";
     }
 
     @RequestMapping(value = "/", method = RequestMethod.POST)
@@ -61,7 +59,6 @@ public class PostController {
     public String index(@RequestParam(defaultValue = "1") int page, Model model) {
         PageHelper.startPage(page, PAGE_SIZE);
         List<Post> posts = postService.getAll();
-//        logger.info("page {}", page);
         PageInfo pageInfo = new PageInfo(posts);
 
         model.addAttribute("totalPages", pageInfo.getPages());
@@ -69,5 +66,42 @@ public class PostController {
         model.addAttribute("posts", posts);
 
         return "admin/posts/index";
+    }
+
+    @RequestMapping(value = "{postId:[0-9]+}/delete", method = {RequestMethod.DELETE, RequestMethod.POST})
+    public String deletePost(@PathVariable Long postId) {
+        postService.deletePost(postId);
+        logger.info("Delete Post {}", postId);
+        return "redirect:/admin/posts";
+    }
+
+    @RequestMapping(value = "{postId:[0-9]+}/edit", method = RequestMethod.GET)
+    public String editPost(@PathVariable Long postId, Model model) {
+        Post post = postService.getById(postId);
+        PostForm postForm = DTOUtil.map(post, PostForm.class);
+
+        String tags = postService.getTagNames(post.getTags());
+        logger.info("Tag {}", tags);
+        postForm.setTags(tags);
+
+        model.addAttribute("post", post);
+        model.addAttribute("postForm", postForm);
+
+        return "admin/posts/edit";
+    }
+
+    @RequestMapping(value = "{postId:[0-9]+}", method = {RequestMethod.PUT, RequestMethod.POST})
+    public String updatePost(@PathVariable Long postId, @Valid PostForm postForm, BindingResult bindingResult, Model model) {
+
+        Post post = postService.getById(postId);
+        DTOUtil.mapTo(postForm, post);
+        Set<Tag> tagSet = postService.parseTagNames(postForm.getTags());
+        post.setTags(tagSet);
+
+        postService.deletePostTags(postId);
+        postService.update(post);
+        postService.insertPostTags(post);
+
+        return "redirect:/admin/posts";
     }
 }

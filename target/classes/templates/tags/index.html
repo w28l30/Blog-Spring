@@ -14,14 +14,14 @@
 <body>
 <div class="container">
     <div class="row">
-<div class="col-sm-8">
-    <div class="blog-post" th:each="tag : ${tagsWithCount}">
-        <h3 class="blog-post-title">
-            <a th:href="@{'/tags/'+${tag.name}}"
-               th:text="${tag.name} + ' ' + ${tag.count}">Lorem ipsum dolor sit amet</a>
-        </h3>
-    </div>
-</div>
+        <div class="col-sm-8">
+            <div class="blog-post" th:each="tag : ${tagsWithCount}">
+                <h3 class="blog-post-title">
+                    <a th:href="@{'/tags/'+${tag.name}}"
+                       th:text="${tag.name} + ' ' + ${tag.count}">Lorem ipsum dolor sit amet</a>
+                </h3>
+            </div>
+        </div>
     </div>
 </div>
 </body>

@@ -44,4 +44,13 @@ public interface PostMapper {
     List<TagWithCount> countPostsByTags();
 
     List<Post> getPostsByTag(String tagName);
+
+    @Delete("DELETE FROM post WHERE id = #{postId}")
+    void deletePostById(Long postId);
+
+    @Update("UPDATE post SET content = #{content}, title = #{title} WHERE id = #{id}")
+    void updatePost(Post post);
+
+    @Delete("DELETE FROM post_tag WHERE post_id = #{postId}")
+    void deletePostTags(Long postId);
 }

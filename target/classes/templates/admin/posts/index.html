@@ -12,12 +12,17 @@
 <body>
 <div class="container">
     <div class="row">
-        <table class="table table-hover">
+        <table class="table table-hover table-bordered table-stripped">
             <th:block th:each="post :${posts}">
                 <tr>
                     <td th:text="${post.id}"></td>
                     <td th:text="${post.title}"></td>
                     <td th:text="${post.created}"></td>
+                    <td class= "operations">
+                        <a class="btn btn-xs btn-info" th:href="@{'/posts/'+${post.id}}"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> Detail</a>
+                        <a class="btn btn-xs btn-primary" th:href="@{'/admin//posts/'+${post.id}+'/edit'}"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit</a>
+                        <a class="btn btn-xs btn-danger" href="#" th:onclick="'javascript:deletePost(\''+ ${post.id} +'\');'"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Delete</a>
+                    </td>
                 </tr>
             </th:block>
         </table>
@@ -27,7 +32,21 @@
     </div>
 </div>
 <script th:inline="javascript">
+    /*<![CDATA[*/
+    function deletePost(postId){
+        if (confirm("Are you sure to delete post @"+postId)) {
 
+            // The rest of this code assumes you are not using a library.
+            // It can be made less wordy if you use one.
+            var form = document.createElement("form");
+            var method = "post";
+            var path = "/admin/posts/" + postId + "/delete";
+            form.setAttribute("method", method);
+            form.setAttribute("action", path);
+            document.body.appendChild(form);
+            form.submit();
+        }
+    }
     var options = {
         alignment: "center",//居中显示
         currentPage: [[${page}]],//当前页数
@@ -41,6 +60,7 @@
         }
     }
     $("#pagintor").bootstrapPaginator(options);// $("#pagintor") Bootstrap 是2.X 使用div元素，3.X使用ul元素
+    /*]]>*/
 </script>
 </body>
 </html>

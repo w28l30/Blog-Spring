@@ -122,4 +122,5 @@
             (#{id}, #{item.id})
         </foreach>
     </insert>
+
 </mapper>
