@@ -5,6 +5,7 @@
     <resultMap id="TAGResultMap" type="hello.model.Tag" >
         <id column="id" property="id"  />
         <result column="name" property="name" />
+        <result column="created" property="created" />
     </resultMap>
 
     <select id="findTagByName" parameterType="java.lang.String" resultType="hello.model.Tag">
@@ -18,11 +19,13 @@
     <insert id="saveTag" parameterType="hello.model.Tag" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
         INSERT INTO tag
         (
-        name
+        name,
+        created
         )
         VALUES
         (
-        #{name}
+        #{name},
+        #{created}
         )
     </insert>
 

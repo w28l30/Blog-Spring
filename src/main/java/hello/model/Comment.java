@@ -1,10 +1,8 @@
 package hello.model;
 import lombok.Data;
-import lombok.Getter;
 
 import java.util.Date;
 
-import javax.persistence.*;
 import javax.validation.constraints.Size;
 
 @Data

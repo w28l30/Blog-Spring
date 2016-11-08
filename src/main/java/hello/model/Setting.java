@@ -2,6 +2,8 @@ package hello.model;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * Created by W28L30 on 2016/11/5.
  */
@@ -9,5 +11,5 @@ import lombok.Data;
 public class Setting extends BaseModel{
     private String key;
 
-    private String value;
+    private Serializable value;
 }
