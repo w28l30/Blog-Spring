@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="hello.mapper.TagMapper" >
+<mapper namespace="blog.mapper.TagMapper" >
     <!--    result maps     -->
-    <resultMap id="TAGResultMap" type="hello.model.Tag" >
+    <resultMap id="TAGResultMap" type="blog.model.Tag" >
         <id column="id" property="id"  />
         <result column="name" property="name" />
         <result column="created" property="created" />
     </resultMap>
 
-    <select id="findTagByName" parameterType="java.lang.String" resultType="hello.model.Tag">
+    <select id="findTagByName" parameterType="java.lang.String" resultType="blog.model.Tag">
         SELECT
         *
         FROM tag t
@@ -16,7 +16,7 @@
         t.name = #{name}
     </select>
 
-    <insert id="saveTag" parameterType="hello.model.Tag" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
+    <insert id="saveTag" parameterType="blog.model.Tag" useGeneratedKeys="true" keyProperty="id" keyColumn="id">
         INSERT INTO tag
         (
         name,

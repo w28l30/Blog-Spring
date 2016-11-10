@@ -1,8 +1,8 @@
 package Test;
 
-import hello.Application;
-import hello.model.User;
-import hello.service.UserService;
+import blog.Application;
+import blog.model.User;
+import blog.service.UserService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

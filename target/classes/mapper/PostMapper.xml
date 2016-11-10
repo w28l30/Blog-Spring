@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="hello.mapper.PostMapper" >
+<mapper namespace="blog.mapper.PostMapper" >
     <!--    result maps     -->
-    <resultMap id="PostResultMap" type="hello.model.Post" >
+    <resultMap id="PostResultMap" type="blog.model.Post" >
         <id column="id" property="id"  />
         <result column="title" property="title" />
         <result column="content" property="content" />
         <result column="created" property="created" />
         <!--    collections of comments     -->
-        <collection property="comments" ofType="hello.model.Comment"
+        <collection property="comments" ofType="blog.model.Comment"
                     column="id" select="selectCommentFromPost" />
         <!--    collections of tags     -->
-        <collection property="tags" ofType="hello.model.Tag"
+        <collection property="tags" ofType="blog.model.Tag"
                     column="id" select="selectTagFromPost" />
     </resultMap>
     
@@ -48,7 +48,7 @@
 
 
     <!--    one to many select  -->
-    <select id="getPostById" resultMap="PostResultMap" parameterType="java.lang.Long" resultType="hello.model.Post">
+    <select id="getPostById" resultMap="PostResultMap" parameterType="java.lang.Long" resultType="blog.model.Post">
         SELECT
         id,
         title,
@@ -61,7 +61,7 @@
 
     <select id="selectCommentFromPost"
             parameterType="java.lang.Long"
-            resultType="hello.model.Comment">
+            resultType="blog.model.Comment">
         SELECT
         id,
         content,
@@ -74,7 +74,7 @@
 
     <select id="selectTagFromPost"
             parameterType="java.lang.Long"
-            resultType="hello.model.Tag">
+            resultType="blog.model.Tag">
         SELECT
         t.id,
         t.name
@@ -101,7 +101,7 @@
         DESC;
     </select>
 
-    <insert id="savePost" parameterType="hello.model.Post" keyProperty="id" useGeneratedKeys="true" keyColumn="id">
+    <insert id="savePost" parameterType="blog.model.Post" keyProperty="id" useGeneratedKeys="true" keyColumn="id">
         INSERT INTO post
         (
         title, content, created
@@ -112,7 +112,7 @@
         )
     </insert>
 
-    <insert id="insertPostTags" parameterType="hello.model.Post">
+    <insert id="insertPostTags" parameterType="blog.model.Post">
         INSERT INTO post_tag
         (
         post_id, tag_id

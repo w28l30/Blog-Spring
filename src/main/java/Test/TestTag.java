@@ -1,12 +1,11 @@
 package Test;
 
-import hello.Application;
-import hello.model.Post;
-import hello.model.Tag;
-import hello.model.support.TagWithCount;
-import hello.service.PostService;
-import hello.service.TagService;
-import org.junit.Test;
+import blog.Application;
+import blog.model.Post;
+import blog.model.Tag;
+import blog.model.support.TagWithCount;
+import blog.service.PostService;
+import blog.service.TagService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
