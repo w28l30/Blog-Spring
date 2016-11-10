@@ -3,6 +3,7 @@ package hello.controller;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import hello.model.Post;
+import hello.service.AppSetting;
 import hello.service.PostService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -21,6 +22,9 @@ public class IndexController {
     @Autowired
     private PostService postService;
 
+    @Autowired
+    private AppSetting appSetting;
+
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String index(@RequestParam(defaultValue = "1") int page, Model model) {
 //        model.addAttribute("posts", this.jdbcTemplate.query(
@@ -33,6 +37,7 @@ public class IndexController {
         model.addAttribute("posts", posts);
         model.addAttribute("totalPages", pageInfo.getPages());
         model.addAttribute("page", page);
+        model.addAttribute("appSetting", appSetting);
         return "index";
     }
 }

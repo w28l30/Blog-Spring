@@ -3,6 +3,7 @@ package hello.controller;
 import hello.model.Comment;
 import hello.model.Post;
 import hello.model.support.PostForm;
+import hello.service.AppSetting;
 import hello.service.CommentService;
 import hello.service.PostService;
 import hello.utils.DTOUtil;
@@ -29,6 +30,8 @@ public class PostController {
     public static final Logger logger = LoggerFactory.getLogger(PostController.class);
 
     @Autowired
+    private AppSetting appSetting;
+    @Autowired
     private PostService postService;
     @Autowired
     private CommentService commentService;
@@ -38,7 +41,9 @@ public class PostController {
         Post post = postService.getById(id);
         logger.info("post comments size = {}", post.getComments().size());
         logger.info("post tags size = {}", post.getTags().size());
+
         model.addAttribute("post", post);
+        model.addAttribute("appSetting", appSetting);
 
         return "post";
     }

@@ -22,14 +22,15 @@ public class AdminController {
     private AppSetting appSetting;
 
     @RequestMapping(value = "")
-    public String index() {
-        return "admin/index";
+    public String index(Model model) {
+        model.addAttribute("appSetting", appSetting);
+        return "admin/home/index";
     }
 
     @RequestMapping(value = "setting")
     public String setting(Model model) {
         SettingForm settingForm = DTOUtil.map(appSetting, SettingForm.class);
-
+        model.addAttribute("appSetting", appSetting);
         model.addAttribute("settingForm", settingForm);
         return "admin/home/setting";
     }

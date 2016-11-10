@@ -5,6 +5,7 @@ import com.github.pagehelper.PageInfo;
 import hello.model.Post;
 import hello.model.Tag;
 import hello.model.support.PostForm;
+import hello.service.AppSetting;
 import hello.service.PostService;
 import hello.utils.DTOUtil;
 import org.slf4j.Logger;
@@ -36,9 +37,13 @@ public class PostController {
     @Autowired
     private PostService postService;
 
+    @Autowired
+    private AppSetting appSetting;
+
     @RequestMapping(value = "/create", method = RequestMethod.GET)
     public String showCreatePage(Model model) {
         model.addAttribute("postForm", new PostForm());
+        model.addAttribute("appSetting", appSetting);
         return "admin/posts/create";
     }
 
@@ -61,6 +66,7 @@ public class PostController {
         List<Post> posts = postService.getAll();
         PageInfo pageInfo = new PageInfo(posts);
 
+        model.addAttribute("appSetting", appSetting);
         model.addAttribute("totalPages", pageInfo.getPages());
         model.addAttribute("page", page);
         model.addAttribute("posts", posts);
@@ -86,6 +92,7 @@ public class PostController {
 
         model.addAttribute("post", post);
         model.addAttribute("postForm", postForm);
+        model.addAttribute("appSetting", appSetting);
 
         return "admin/posts/edit";
     }

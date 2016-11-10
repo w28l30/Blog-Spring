@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import hello.model.Post;
 import hello.model.Tag;
+import hello.service.AppSetting;
 import hello.service.PostService;
 import hello.service.TagService;
 import org.apache.ibatis.javassist.NotFoundException;
@@ -29,13 +30,17 @@ public class TagController {
     @Autowired
     private PostService postService;
 
+    @Autowired
+    private AppSetting appSetting;
+
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String index(Model model) {
         model.addAttribute("tagsWithCount", postService.countPostsByTags());
+        model.addAttribute("appSetting", appSetting);
         return "tags/index";
     }
 
-    @RequestMapping(value = "{tagName}",  method = RequestMethod.GET)
+    @RequestMapping(value = "{tagName}", method = RequestMethod.GET)
     public String showTag(@PathVariable String tagName, @RequestParam(defaultValue = "1") int page, Model model) throws NotFoundException {
         Tag tag = tagService.findOrCreateByName(tagName);
         if (tag == null) {
@@ -44,10 +49,10 @@ public class TagController {
 
         PageHelper.startPage(page, 10);
 
-
         List<Post> posts = postService.getPostsByTag(tagName);
         PageInfo pageInfo = new PageInfo(posts);
 
+        model.addAttribute("appSetting", appSetting);
         model.addAttribute("tag", tag);
         model.addAttribute("posts", posts);
         model.addAttribute("page", page);
