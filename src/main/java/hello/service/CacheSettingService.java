@@ -19,11 +19,6 @@ public class CacheSettingService implements SettingService {
 
     private static final String CACHE_NAME = "cache.settings";
 
-//    @Autowired
-//    public CacheSettingService(SettingRepository settingRepository) {
-//        this.settingRepository = settingRepository;
-//    }
-
     private static final Logger logger = LoggerFactory.getLogger(SettingService.class);
 
     @Override
