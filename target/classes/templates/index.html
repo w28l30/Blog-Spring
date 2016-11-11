@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/sidbar.css"/>
     <link rel="stylesheet" href="/css/blog.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="/vendor/twbs-pagination/js/bootstrap-paginator.min.js"></script>
@@ -24,7 +25,7 @@
         <div class="col-sm-8">
             <div class="blog-post" th:each="post : ${posts}">
                 <h3 class="blog-post-title">
-                    <a th:href="@{'/posts/'+${post.id}}"
+                    <a th:href="@{'/post/'+${post.id}}"
                        th:text="${post.title}">Lorem ipsum dolor sit amet</a>
                 </h3>
                 <p class="blog-post-meta" th:text="${#dates.format(post.created, 'yyyy-MM-dd')}">2015年2月3日</p>
@@ -83,5 +84,6 @@
     }
     $("#pagintor").bootstrapPaginator(options);// $("#pagintor") Bootstrap 是2.X 使用div元素，3.X使用ul元素
 </script>
+<footer th:replace="/layout/footer::content"></footer>
 </body>
 </html>

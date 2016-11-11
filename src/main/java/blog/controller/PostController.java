@@ -42,7 +42,7 @@ public class PostController {
         model.addAttribute("post", post);
         model.addAttribute("appSetting", appSetting);
 
-        return "post";
+        return "post1";
     }
 
     @RequestMapping(value = "/{postId}/comments", method = RequestMethod.POST)

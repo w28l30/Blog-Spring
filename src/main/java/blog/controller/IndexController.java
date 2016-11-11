@@ -38,6 +38,6 @@ public class IndexController {
         model.addAttribute("totalPages", pageInfo.getPages());
         model.addAttribute("page", page);
         model.addAttribute("appSetting", appSetting);
-        return "index";
+        return "index1";
     }
 }

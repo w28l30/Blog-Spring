@@ -9,8 +9,22 @@
     <link rel="stylesheet" href="/css/sidbar.css"/>
     <link rel="stylesheet" href="/css/blog.css"/>
     <link rel="stylesheet" href="/css/highlight.css"/>
+    <link rel="stylesheet/less" href="/vendor/pagedown-bootstrap-master/demo/browser/demo.less"/>
+    <script src="/vendor/pagedown-bootstrap-master/demo/browser/less/less-1.2.2.min.js"></script>
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-transition.js"></script>
+    <script src="/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-modal.js"></script>
+    <script src="/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-tooltip.js"></script>
+    <script type="text/javascript" src="/vendor/pagedown-bootstrap-master/Markdown.Converter.js"></script>
+    <script type="text/javascript" src="/vendor/pagedown-bootstrap-master/Markdown.Sanitizer.js"></script>
+    <script type="text/javascript" src="/vendor/pagedown-bootstrap-master/Markdown.Editor.js"></script>
 </head>
 <nav th:replace="/admin/layout/navbar::nav"></nav>
 <body>
@@ -39,11 +53,53 @@
                            id="tags" name="tags" th:field="*{tags}"
                            placeholder="标签" autofocus=""/>
                 </div>
+
+                <hr/>
+
                 <div class="form-group">
-                    <label for="content">内容</label>
-                    <textarea class="form-control" id="content" name="content" th:field="*{content}"
-                              placeholder="文章的内容" rows="18"></textarea>
-                    <p th:if="${#fields.hasErrors('content')}" th:errors="*{content}">内容不可为空</p>
+                    <div class="wmd-panel">
+                        <div id="wmd-button-bar"></div>
+                        <textarea class="wmd-input" id="wmd-input">
+                                This is the *first* editor.
+                                ------------------------------
+
+                                Just plain **Markdown**, except that the input is sanitized:
+
+                                <marquee>I'm the ghost from the past!</marquee>
+                            </textarea>
+                    </div>
+                    <textarea id="wmd-preview" class="wmd-panel wmd-preview" name="content" th:field="*{content}"></textarea>
+
+                    <script type="text/javascript">
+                        (function () {
+                            var converter1 = Markdown.getSanitizingConverter();
+                            var editor1 = new Markdown.Editor(converter1);
+                            editor1.run();
+
+                            var converter2 = new Markdown.Converter();
+
+                            converter2.hooks.chain("preConversion", function (text) {
+                                return text.replace(/\b(a\w*)/gi, "*$1*");
+                            });
+
+                            converter2.hooks.chain("plainLinkText", function (url) {
+                                return "This is a link to " + url.replace(/^https?:\/\//, "");
+                            });
+
+                            var help = function () {
+                                alert("Do you need help?");
+                            }
+
+                            var editor2 = new Markdown.Editor(converter2, "-second", {handler: help});
+
+                            editor2.run();
+                        })();
+                    </script>
+                    <!--<label for="content">内容</label>-->
+
+                    <!--<textarea class="form-control" id="content" name="content" th:field="*{content}"-->
+                    <!--placeholder="文章的内容" rows="18"></textarea>-->
+                    <!--<p th:if="${#fields.hasErrors('content')}" th:errors="*{content}">内容不可为空</p>-->
                 </div>
                 <button type="submit" class="btn pull-right btn-primary">保存</button>
             </form>
@@ -59,7 +115,8 @@
                         <a>lorem@example.com</a>
                     </div>
                 </div>
-                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in, nec placerat non.</p>
+                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in,
+                    nec placerat non.</p>
             </div>
             <div class="sidebar-module">
                 <h4>归档</h4>
@@ -80,6 +137,6 @@
     </div>
 
 </div>
-
+<!--<footer th:replace="/layout/footer::content"></footer>-->
 </body>
 </html>

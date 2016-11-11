@@ -18,6 +18,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.util.HtmlUtils;
 
 import javax.validation.Valid;
 import java.util.List;
@@ -54,31 +55,20 @@ public class PostController {
         }
         Post post = DTOUtil.map(postForm, Post.class);
         post.setTags(postService.parseTagNames(postForm.getTags()));
+
+        String content = post.getContent();
+        post.setContent(HtmlUtils.htmlEscape(content));
         postService.save(post);
         postService.insertPostTags(post);
 
         return "redirect:/posts/" + post.getId();
     }
 
-    @RequestMapping(value = "")
-    public String index(@RequestParam(defaultValue = "1") int page, Model model) {
-        PageHelper.startPage(page, PAGE_SIZE);
-        List<Post> posts = postService.getAll();
-        PageInfo pageInfo = new PageInfo(posts);
-
-        model.addAttribute("appSetting", appSetting);
-        model.addAttribute("totalPages", pageInfo.getPages());
-        model.addAttribute("page", page);
-        model.addAttribute("posts", posts);
-
-        return "admin/posts/index";
-    }
-
     @RequestMapping(value = "{postId:[0-9]+}/delete", method = {RequestMethod.DELETE, RequestMethod.POST})
     public String deletePost(@PathVariable Long postId) {
         postService.deletePost(postId);
         logger.info("Delete Post {}", postId);
-        return "redirect:/admin/posts";
+        return "redirect:/admin/";
     }
 
     @RequestMapping(value = "{postId:[0-9]+}/edit", method = RequestMethod.GET)
@@ -109,6 +99,6 @@ public class PostController {
         postService.update(post);
         postService.insertPostTags(post);
 
-        return "redirect:/admin/posts";
+        return "redirect:/admin/";
     }
 }

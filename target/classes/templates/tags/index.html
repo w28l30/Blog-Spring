@@ -6,7 +6,7 @@
     <title>Tags</title>
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/footer.css"/>
-    <link rel="stylesheet" href="/css/sidbar.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
     <link rel="stylesheet" href="/css/blog.css"/>
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -19,11 +19,12 @@
             <div class="blog-post" th:each="tag : ${tagsWithCount}">
                 <h3 class="blog-post-title">
                     <a th:href="@{'/tags/'+${tag.name}}"
-                       th:text="${tag.name} + ' ' + ${tag.count}">Lorem ipsum dolor sit amet</a>
+                    th:text="${tag.name} + ' ' + ${tag.count}">Lorem ipsum dolor sit amet</a>
                 </h3>
             </div>
         </div>
     </div>
 </div>
+<footer th:replace="/layout/footer::content"></footer>
 </body>
 </html>
