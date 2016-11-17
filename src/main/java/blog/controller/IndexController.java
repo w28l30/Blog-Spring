@@ -27,17 +27,35 @@ public class IndexController {
 
     @RequestMapping(value = "", method = RequestMethod.GET)
     public String index(@RequestParam(defaultValue = "1") int page, Model model) {
-//        model.addAttribute("posts", this.jdbcTemplate.query(
-//                "select * from post",
-//                (rs, rowNum) -> new Post(rs.getLong("id"), rs.getString("title"), rs.getString("content"), rs.getDate("created"))));
-        PageHelper.startPage(page, 10);
+        PageHelper.startPage(page, appSetting.getPageSize());
         List<Post> posts = postService.getAll();
         PageInfo pageInfo = new PageInfo(posts);
+
+        if (pageInfo.isIsLastPage()) {
+            model.addAttribute("isLast", true);
+        } else {
+            model.addAttribute("isLast", false);
+        }
+
+        if (pageInfo.isIsFirstPage()) {
+            model.addAttribute("isFirst", true);
+        } else {
+            model.addAttribute("isFirst", false);
+        }
 
         model.addAttribute("posts", posts);
         model.addAttribute("totalPages", pageInfo.getPages());
         model.addAttribute("page", page);
         model.addAttribute("appSetting", appSetting);
         return "index1";
+    }
+    @RequestMapping(value = "/contact")
+    public String contact() {
+        return "contact";
+    }
+
+    @RequestMapping(value = "/about")
+    public String about() {
+        return "about";
     }
 }

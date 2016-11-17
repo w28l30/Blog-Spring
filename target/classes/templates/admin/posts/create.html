@@ -3,31 +3,27 @@
       xmlns:th="http://www.thymeleaf.org">
 <head lang="en">
     <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
     <title>创建博文</title>
+
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/footer.css"/>
-    <link rel="stylesheet" href="/css/sidbar.css"/>
-    <link rel="stylesheet" href="/css/blog.css"/>
-    <link rel="stylesheet" href="/css/highlight.css"/>
-    <link rel="stylesheet/less" href="/vendor/pagedown-bootstrap-master/demo/browser/demo.less"/>
-    <script src="/vendor/pagedown-bootstrap-master/demo/browser/less/less-1.2.2.min.js"></script>
-    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css"/>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-transition.js"></script>
-    <script src="/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-modal.js"></script>
-    <script src="/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-tooltip.js"></script>
-    <script type="text/javascript" src="/vendor/pagedown-bootstrap-master/Markdown.Converter.js"></script>
-    <script type="text/javascript" src="/vendor/pagedown-bootstrap-master/Markdown.Sanitizer.js"></script>
-    <script type="text/javascript" src="/vendor/pagedown-bootstrap-master/Markdown.Editor.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
-<nav th:replace="/admin/layout/navbar::nav"></nav>
 <body>
+<nav th:replace="/admin/layout/navbar::nav"></nav>
 <div class="container">
     <div class="page-header">
         <h2>创建博文
@@ -36,9 +32,7 @@
     </div>
 
     <div class="row">
-
-        <div class="col-sm-8">
-
+        <div class="col-md-8">
             <form action="/admin/posts/" method="post" th:object="${postForm}">
                 <div class="form-group">
                     <label for="title">标题</label>
@@ -53,90 +47,37 @@
                            id="tags" name="tags" th:field="*{tags}"
                            placeholder="标签" autofocus=""/>
                 </div>
-
                 <hr/>
-
                 <div class="form-group">
-                    <div class="wmd-panel">
-                        <div id="wmd-button-bar"></div>
-                        <textarea class="wmd-input" id="wmd-input">
-                                This is the *first* editor.
-                                ------------------------------
-
-                                Just plain **Markdown**, except that the input is sanitized:
-
-                                <marquee>I'm the ghost from the past!</marquee>
-                            </textarea>
-                    </div>
-                    <textarea id="wmd-preview" class="wmd-panel wmd-preview" name="content" th:field="*{content}"></textarea>
-
-                    <script type="text/javascript">
-                        (function () {
-                            var converter1 = Markdown.getSanitizingConverter();
-                            var editor1 = new Markdown.Editor(converter1);
-                            editor1.run();
-
-                            var converter2 = new Markdown.Converter();
-
-                            converter2.hooks.chain("preConversion", function (text) {
-                                return text.replace(/\b(a\w*)/gi, "*$1*");
-                            });
-
-                            converter2.hooks.chain("plainLinkText", function (url) {
-                                return "This is a link to " + url.replace(/^https?:\/\//, "");
-                            });
-
-                            var help = function () {
-                                alert("Do you need help?");
-                            }
-
-                            var editor2 = new Markdown.Editor(converter2, "-second", {handler: help});
-
-                            editor2.run();
-                        })();
-                    </script>
-                    <!--<label for="content">内容</label>-->
-
-                    <!--<textarea class="form-control" id="content" name="content" th:field="*{content}"-->
-                    <!--placeholder="文章的内容" rows="18"></textarea>-->
+                    <label for="editor">内容</label>
+                    <textarea id="editor"># This one autosaves!
+By default, it saves every 10 seconds, but this can be changed. When this textarea is included in a form, it will automatically forget the saved value when the form is submitted.</textarea>
+                    <textarea id="content" th:field="*{content}" style="display: none"></textarea>
                     <!--<p th:if="${#fields.hasErrors('content')}" th:errors="*{content}">内容不可为空</p>-->
                 </div>
-                <button type="submit" class="btn pull-right btn-primary">保存</button>
+                <button type="submit" onclick="markDownToHtml()" class="btn pull-right btn-primary">保存</button>
             </form>
-
         </div>
-
-        <div class="col-sm-3 col-sm-offset-1">
-            <div class="sidebar-module sidebar-module-inset">
-                <div class="avatar">
-                    <img class="img-circle img-rounded img-thumbnail avatar" src="/img/catty.jpeg"/>
-                    <div>
-                        <h4>Lorem</h4>
-                        <a>lorem@example.com</a>
-                    </div>
-                </div>
-                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in,
-                    nec placerat non.</p>
-            </div>
-            <div class="sidebar-module">
-                <h4>归档</h4>
-                <ol class="list-unstyled">
-                    <li><a href="#">2015年03月</a></li>
-                    <li><a href="#">2015年02月</a></li>
-                    <li><a href="#">2015年01月</a></li>
-                    <li><a href="#">2014年12月</a></li>
-                    <li><a href="#">2014年11月</a></li>
-                    <li><a href="#">2014年10月</a></li>
-                    <li><a href="#">2014年09月</a></li>
-                    <li><a href="#">2014年08月</a></li>
-                    <li><a href="#">2014年07月</a></li>
-                </ol>
-            </div>
-        </div>
-
     </div>
-
 </div>
-<!--<footer th:replace="/layout/footer::content"></footer>-->
+<footer th:replace="/layout/footer::content"></footer>
 </body>
+
+<script>
+    var simplemde = new SimpleMDE({
+        element: document.getElementById("editor"),
+        spellChecker: false,
+        autosave: {
+            enabled: true,
+            unique_id: "editor",
+        },
+    });
+</script>
+<script>
+    function markDownToHtml() {
+        var render = simplemde.value();
+        var renderedHTML = simplemde.options.previewRender(render);
+        document.getElementById('content').innerText = renderedHTML;
+    }
+</script>
 </html>

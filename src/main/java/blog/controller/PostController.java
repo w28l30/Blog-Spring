@@ -14,6 +14,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.util.HtmlUtils;
 
 import javax.validation.Valid;
 
@@ -39,6 +40,9 @@ public class PostController {
         logger.info("post comments size = {}", post.getComments().size());
         logger.info("post tags size = {}", post.getTags().size());
 
+        String content = HtmlUtils.htmlUnescape(post.getContent());
+
+        post.setContent(content);
         model.addAttribute("post", post);
         model.addAttribute("appSetting", appSetting);
 

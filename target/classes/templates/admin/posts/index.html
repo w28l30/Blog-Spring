@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <title>AdminPost</title>
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
-
+    <link rel="stylesheet" href="/css/footer.css"/>
     <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="/vendor/twbs-pagination/js/bootstrap-paginator.min.js"></script>
@@ -57,7 +57,7 @@
             if (page == current) {
                 return "javascript:void(0)";
             } else {
-                return '/admin/posts?page=' + page;
+                return '/admin?page=' + page;
             }
         }
     }

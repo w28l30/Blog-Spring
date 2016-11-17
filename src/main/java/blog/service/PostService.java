@@ -46,8 +46,9 @@ public class PostService {
     public Set<Tag> parseTagNames(String tagNames) {
         Set<Tag> tags = new HashSet<>();
         if (tagNames != null && !tagNames.isEmpty()) {
+            logger.info("Tag names before: {}", tagNames);
             tagNames = tagNames.toLowerCase();
-            String[] names = tagNames.split("\\s*, \\s*");
+            String[] names = tagNames.split("\\s+");
             for (String name : names) {
                 logger.info("Tag name: {}", name);
                 tags.add(tagService.findOrCreateByName(name));
