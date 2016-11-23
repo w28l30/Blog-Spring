@@ -4,12 +4,19 @@
 <head lang="en">
     <meta charset="UTF-8"/>
     <title>修改博文</title>
+
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="/css/footer.css"/>
-    <link rel="stylesheet" href="/css/sidbar.css"/>
-    <link rel="stylesheet" href="/css/blog.css"/>
-    <link rel="stylesheet" href="/css/highlight.css"/>
-    <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css"/>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 </head>
 <nav th:replace="/admin/layout/navbar::nav"></nav>
@@ -22,9 +29,7 @@
     </div>
 
     <div class="row">
-
         <div class="col-sm-8">
-
             <form th:action="@{'/admin/posts/'+${post.id}}" method="post" th:object="${postForm}">
                 <div class="form-group">
                     <label for="title">标题</label>
@@ -39,48 +44,35 @@
                            id="tags" name="tags" th:field="*{tags}"
                            placeholder="标签" autofocus=""/>
                 </div>
+                <hr/>
                 <div class="form-group">
-                    <label for="content">内容</label>
-                    <textarea class="form-control" id="content" name="content" th:field="*{content}"
-                              placeholder="文章的内容" rows="18"></textarea>
-                    <p th:if="${#fields.hasErrors('content')}" th:errors="*{content}">内容不可为空</p>
+                    <label for="editor">内容</label>
+                    <textarea id="editor"></textarea>
+                    <textarea id="content" th:field="*{content}" style="display: none"></textarea>
+                    <!--<p th:if="${#fields.hasErrors('content')}" th:errors="*{content}">内容不可为空</p>-->
                 </div>
-                <button type="submit" class="btn pull-right btn-primary">保存</button>
+                <button type="submit" onclick="markDownToHtml()" class="btn pull-right btn-primary">保存</button>
             </form>
 
-        </div>
-
-        <div class="col-sm-3 col-sm-offset-1">
-            <div class="sidebar-module sidebar-module-inset">
-                <div class="avatar">
-                    <img class="img-circle img-rounded img-thumbnail avatar" src="/img/catty.jpeg"/>
-                    <div>
-                        <h4>Lorem</h4>
-                        <a>lorem@example.com</a>
-                    </div>
-                </div>
-                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in,
-                    nec placerat non.</p>
-            </div>
-            <div class="sidebar-module">
-                <h4>归档</h4>
-                <ol class="list-unstyled">
-                    <li><a href="#">2015年03月</a></li>
-                    <li><a href="#">2015年02月</a></li>
-                    <li><a href="#">2015年01月</a></li>
-                    <li><a href="#">2014年12月</a></li>
-                    <li><a href="#">2014年11月</a></li>
-                    <li><a href="#">2014年10月</a></li>
-                    <li><a href="#">2014年09月</a></li>
-                    <li><a href="#">2014年08月</a></li>
-                    <li><a href="#">2014年07月</a></li>
-                </ol>
-            </div>
         </div>
 
     </div>
 
 </div>
-
 </body>
+<script th:inline="javascript">
+    var simplemde = new SimpleMDE({
+        element: document.getElementById("editor"),
+        spellChecker: false,
+        placeholder: "Type here...",
+        initialValue: [[${post.content}]],
+    });
+</script>
+<script>
+    function markDownToHtml() {
+        var render = simplemde.value();
+        var renderedHTML = simplemde.options.previewRender(render);
+        document.getElementById('content').innerText = renderedHTML;
+    }
+</script>
 </html>

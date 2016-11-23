@@ -2,488 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba127e51-5891-4fcb-9d88-a31e17c9a6c4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Converter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Editor.Icons.fw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Editor.Icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Editor.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Sanitizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/bootstrap.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/css/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/bootstrap-apple-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/bootstrap-apple-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/bootstrap-apple-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bird.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/browsers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-diagram-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-diagram-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-diagram-03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/bartop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/fleetio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/jshint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/kippt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/railwayjs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/totalwireframe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/examples/bootstrap-example-fluid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/examples/bootstrap-example-hero.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/examples/bootstrap-example-starter.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/github-16px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_009_magic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_042_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_079_podium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_082_roundabout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_155_show_thumbnails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_163_iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_214_resize_small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_266_book_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/grid-18px-masked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-css3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-html5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/less-logo-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/less-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/responsive-illustrations.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/google-code-prettify/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/google-code-prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/base-css.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/.bin/hulk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/.git_ignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/bin/hulk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/lib/compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/lib/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/lib/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/html/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/Changes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/TESTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/comments.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/comments.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/inverted.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/inverted.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/partials.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/partials.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/sections.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/sections.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/templates/list.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/tools/release.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/tools/web_templates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/1.0.0/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/1.0.0/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/noise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/small-hogan-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/stripes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/index.html.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/amd.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/common.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/mustache.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/download.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples/hero.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples/starter-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/less.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/scaffolding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/layout.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/base-css.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/components.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/download.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/examples.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/index.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/javascript.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/less.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/scaffolding.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/upgrading.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/upgrading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/vendor/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/vendor/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/accordion.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/hero-unit.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/layouts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/reset.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/responsive.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/sprites.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/demo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/less/less-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/node/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/templates/demo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/Markdown.Converter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/Markdown.Editor.Icons.fw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/Markdown.Editor.Icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/Markdown.Editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/Markdown.Editor.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/Markdown.Sanitizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/bootstrap.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/css/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/css/docs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/bootstrap-apple-114x114.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/bootstrap-apple-57x57.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/bootstrap-apple-72x72.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/ico/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bird.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/bootstrap-mdo-sfmoma-03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/browsers.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-diagram-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-diagram-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-diagram-03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/bartop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/fleetio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/jshint.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/kippt.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/railwayjs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/example-sites/totalwireframe.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/examples/bootstrap-example-fluid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/examples/bootstrap-example-hero.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/examples/bootstrap-example-starter.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/github-16px.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_009_magic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_042_group.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_079_podium.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_082_roundabout.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_155_show_thumbnails.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_163_iphone.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_214_resize_small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/glyphicons/glyphicons_266_book_open.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/grid-18px-masked.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-css3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-html5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/icon-twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/less-logo-large.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/less-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/img/responsive-illustrations.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/application.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/google-code-prettify/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/google-code-prettify/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/assets/js/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/base-css.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/.bin/hulk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/.git_ignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/.gitmodules" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/bin/hulk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/lib/compiler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/lib/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/lib/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/html/list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/Changes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/TESTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/comments.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/comments.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/delimiters.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/interpolation.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/inverted.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/inverted.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/partials.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/partials.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/sections.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/sections.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/spec/specs/~lambdas.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/test/templates/list.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/tools/release.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/tools/web_templates.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/1.0.0/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/1.0.0/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.0/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.3/hogan.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.common.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.min.mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/hogan-1.0.5.mustache.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/builds/1.0.5/template-1.0.5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/noise.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/small-hogan-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/images/stripes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/index.html.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/stylesheets/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/web/stylesheets/skeleton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/amd.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/common.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/node_modules/hogan.js/wrappers/mustache.js.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/build/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/components.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/download.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples/fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples/hero.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/examples/starter-template.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/javascript.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/less.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/scaffolding.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/layout.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/base-css.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/components.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/download.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/examples.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/index.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/javascript.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/less.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/scaffolding.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/templates/pages/upgrading.mustache" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/docs/upgrading.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/img/glyphicons-halflings.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-collapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-modal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-popover.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-scrollspy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-transition.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/unit/bootstrap-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/vendor/qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/js/tests/vendor/qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/accordion.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/alerts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/bootstrap.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/breadcrumbs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/button-groups.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/buttons.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/carousel.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/close.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/code.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/component-animations.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/dropdowns.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/forms.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/grid.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/hero-unit.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/labels.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/layouts.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/mixins.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/modals.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/navbar.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/navs.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/pager.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/pagination.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/popovers.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/progress-bars.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/reset.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/responsive.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/scaffolding.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/sprites.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/tables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/thumbnails.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/tooltip.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/type.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/utilities.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/variables.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/wells.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/demo.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/browser/less/less-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/static/vendor/pagedown-bootstrap-master/demo/node/demo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/templates/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/blog/controller/TagController.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/controller/IndexController.class" afterPath="$PROJECT_DIR$/target/classes/blog/controller/IndexController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/controller/PostController.class" afterPath="$PROJECT_DIR$/target/classes/blog/controller/PostController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/service/PostService.class" afterPath="$PROJECT_DIR$/target/classes/blog/service/PostService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/controller/admin/controllers/AdminController.class" afterPath="$PROJECT_DIR$/target/classes/blog/controller/admin/controllers/AdminController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/controller/admin/controllers/PostController.class" afterPath="$PROJECT_DIR$/target/classes/blog/controller/admin/controllers/PostController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/model/support/SettingForm.class" afterPath="$PROJECT_DIR$/target/classes/blog/model/support/SettingForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/blog/service/AppSetting.class" afterPath="$PROJECT_DIR$/target/classes/blog/service/AppSetting.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/Application.java" afterPath="$PROJECT_DIR$/src/main/java/blog/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/controller/IndexController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/controller/PostController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/controller/PostController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/service/PostService.java" afterPath="$PROJECT_DIR$/src/main/java/blog/service/PostService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/controller/TagController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/controller/TagController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/AdminController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/AdminController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/PostController.java" afterPath="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/PostController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/model/support/SettingForm.java" afterPath="$PROJECT_DIR$/src/main/java/blog/model/support/SettingForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/blog/service/AppSetting.java" afterPath="$PROJECT_DIR$/src/main/java/blog/service/AppSetting.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/js/contact_me.js" afterPath="$PROJECT_DIR$/src/main/resources/static/js/contact_me.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/mail/contact_me.php" afterPath="$PROJECT_DIR$/src/main/resources/static/mail/contact_me.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/about.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/home/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/home/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/home/setting.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/home/setting.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/posts/create.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/posts/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/posts/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/posts/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/posts/edit.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/posts/edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/contact.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index1.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/index1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/post.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/post1.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/post1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/tags/index.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/tags/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/tags/show.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/tags/show.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/about.html" afterPath="$PROJECT_DIR$/target/classes/templates/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/admin/posts/create.html" afterPath="$PROJECT_DIR$/target/classes/templates/admin/posts/create.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/admin/posts/index.html" afterPath="$PROJECT_DIR$/target/classes/templates/admin/posts/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/contact.html" afterPath="$PROJECT_DIR$/target/classes/templates/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/admin/home/setting.html" afterPath="$PROJECT_DIR$/target/classes/templates/admin/home/setting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/admin/posts/edit.html" afterPath="$PROJECT_DIR$/target/classes/templates/admin/posts/edit.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/index1.html" afterPath="$PROJECT_DIR$/target/classes/templates/index1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/post1.html" afterPath="$PROJECT_DIR$/target/classes/templates/post1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/post.html" afterPath="$PROJECT_DIR$/target/classes/templates/post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/templates/tags/show.html" afterPath="$PROJECT_DIR$/target/classes/templates/tags/show.html" />
     </list>
     <ignored path="Blog-Spring.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -513,34 +62,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/posts/create.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-865">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="1815">
+              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
               <folding>
-                <element signature="n#style#0;n#textarea#1;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/PostController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="79" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -548,18 +77,20 @@
       <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4290">
-              <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="217">
+              <caret line="113" column="65" selection-start-line="113" selection-start-column="59" selection-end-line="113" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/bootstrap/css/bootstrap.css">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="4834" column="14" selection-start-line="4834" selection-start-column="14" selection-end-line="4834" selection-end-column="14" />
+            <state relative-caret-position="-660">
+              <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -568,8 +99,61 @@
       <file leaf-file-name="post1.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="790">
+              <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3209">
+              <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_me.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/contact_me.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding>
+                <marker date="1479871507675" expanded="true" signature="1472:1479" ph="×" />
+                <marker date="1479871507675" expanded="true" signature="2150:2157" ph="×" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact_me.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/mail/contact_me.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags/show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="112" column="65" selection-start-line="112" selection-start-column="65" selection-end-line="112" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -599,10 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/hello/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Test/TestUser.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/hello/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/controller/admin/controllers/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/service/TagService.java" />
         <option value="$PROJECT_DIR$/src/main/java/hello/controller/TagController.java" />
@@ -618,10 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/static/css/blog.css" />
         <option value="$PROJECT_DIR$/src/main/resources/static/css/footer.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout/footer.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/tags/show.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/tags/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/layout/navbar.html" />
-        <option value="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/AdminController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/layout/navbar.html" />
         <option value="$PROJECT_DIR$/src/main/java/blog/controller/Post1Controller.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
@@ -630,26 +207,33 @@
         <option value="$PROJECT_DIR$/src/main/java/blog/controller/testController2.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/less-1.2.2.min.js" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/demo.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/posts/edit.html" />
-        <option value="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/PostController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/post.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/less/less-1.2.2.min.js" />
         <option value="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Editor.less" />
         <option value="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/bootstrap.less" />
         <option value="$PROJECT_DIR$/src/main/java/blog/controller/PostController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/contact.html" />
         <option value="$PROJECT_DIR$/src/main/java/blog/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/blog/controller/TagController.java" />
         <option value="$PROJECT_DIR$/src/main/java/blog/service/PostService.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/post1.html" />
         <option value="$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/demo.less" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/home/setting.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/home/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/posts/index.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/posts/create.html" />
+        <option value="$PROJECT_DIR$/src/main/java/blog/model/support/SettingForm.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/home/setting.html" />
         <option value="$PROJECT_DIR$/src/main/java/blog/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blog/service/AppSetting.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/post.html" />
+        <option value="$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/PostController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/blog/controller/TagController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/posts/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/about.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/tags/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/post1.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/tags/show.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/admin/posts/create.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/contact.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/mail/contact_me.php" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/contact_me.js" />
       </list>
     </option>
   </component>
@@ -697,6 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
@@ -788,6 +373,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tags" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -818,7 +433,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="mail" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -867,6 +512,66 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Blog-Spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -903,7 +608,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -914,29 +618,29 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="pagehelper&#9;PSI&#9;JAVA://com.github.pagehelper.PageHelper&#10;indexcon&#9;FILE&#9;file://C:/Users/zouyi/OneDrive/Documents/GitHub/Blog-Spring/src/main/java/hello/controller/IndexController.java&#10;created&#9;PSI&#9;JAVA://hello.model.Post#created&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins&#10;project&#9;ACTION&#9;NewProject" />
+    <property name="SearchEverywhereHistoryKey" value="contact_me&#9;FILE&#9;file://C:/Users/zouyi/OneDrive/Documents/GitHub/Blog-Spring/src/main/resources/static/mail/contact_me.php&#10;redis&#9;PSI&#9;JAVA://blog.config.RedisCacheConfig&#10;pagehelper&#9;PSI&#9;JAVA://com.github.pagehelper.PageHelper&#10;indexcon&#9;FILE&#9;file://C:/Users/zouyi/OneDrive/Documents/GitHub/Blog-Spring/src/main/java/hello/controller/IndexController.java&#10;created&#9;PSI&#9;JAVA://hello.model.Post#created&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins&#10;project&#9;ACTION&#9;NewProject" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/admin" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="templates.admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\templates" />
+      <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\templates\admin\layout" />
+      <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\templates\admin\home" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="blog.controller" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\templates" />
       <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\static\js" />
       <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\static\img" />
       <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\static\less" />
       <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\static\css" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="templates.admin" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="blog.controller" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\templates" />
-      <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\templates\admin\layout" />
-      <recent name="C:\Users\zouyi\OneDrive\Documents\GitHub\Blog-Spring\src\main\resources\templates\admin\home" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.Application">
@@ -1413,7 +1117,12 @@
       <workItem from="1478893295239" duration="15831000" />
       <workItem from="1479090714162" duration="9000" />
       <workItem from="1479307229520" duration="56000" />
-      <workItem from="1479338977466" duration="22106000" />
+      <workItem from="1479338977466" duration="22706000" />
+      <workItem from="1479414935376" duration="58000" />
+      <workItem from="1479503551783" duration="17000" />
+      <workItem from="1479527961073" duration="607000" />
+      <workItem from="1479585714106" duration="10000" />
+      <workItem from="1479852120758" duration="14942000" />
     </task>
     <servers />
   </component>
@@ -1426,11 +1135,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98519000" />
+    <option name="totallyTimeSpent" value="114753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3400" y="-13" width="2586" height="1546" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1440,18 +1149,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27415732" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24044944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18867187" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1481,108 +1190,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/homepage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/highlight.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags/show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/layout/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="42" selection-start-line="30" selection-start-column="42" selection-end-line="30" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/layout/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="29" column="42" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/Post1Controller.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/testController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/testController2.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1470">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/exception/PostNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mail/contact_me.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-99">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/less-1.2.2.min.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/ErrorController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1590,27 +1197,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/posts/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="33" column="99" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Editor.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/Markdown.Editor.less" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/github/pagehelper/pagehelper/4.1.6/pagehelper-4.1.6.jar!/com/github/pagehelper/PageHelper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1618,42 +1205,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="44" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo.html" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1848">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1675,86 +1231,23 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/TagController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="42" column="37" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/blog/service/PostService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
           <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/service/AppSetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/bootstrap.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="991">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/bootstrap/less/bootstrap.less" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/bootstrap/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-32533">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/demo.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/less/less-1.2.2.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="1032" column="27" selection-start-line="1032" selection-start-column="22" selection-end-line="1032" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/home/setting.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/demo.less" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/pagedown-bootstrap-master/demo/browser/less/less-1.2.2.min.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1767,7 +1260,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-363">
           <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1775,43 +1267,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="124" column="18" selection-start-line="124" selection-start-column="18" selection-end-line="124" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="36" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/posts/create.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-865">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#textarea#1;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/PostController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="79" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1820,19 +1275,292 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index1.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/bootstrap/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4290">
-          <caret line="130" column="5" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="4843" column="1" selection-start-line="4843" selection-start-column="1" selection-end-line="4843" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/vendor/bootstrap/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/PostController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="4834" column="14" selection-start-line="4834" selection-start-column="14" selection-end-line="4834" selection-end-column="14" />
+        <state relative-caret-position="-297">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/mapper/SettingMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/config/RedisCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/model/Setting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-470">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/service/impl/CacheSettingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/home/setting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/model/support/SettingForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/service/SecurityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/service/AppSetting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-88">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/layout/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/service/SettingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/model/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/PostController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="82" column="64" selection-start-line="82" selection-start-column="64" selection-end-line="82" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/clean-blog.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/admin/controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="62" column="59" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/posts/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="42" column="59" selection-start-line="42" selection-start-column="59" selection-end-line="42" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#textarea#1;n#div#2;n#form#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="43" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/blog/controller/TagController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-660">
+          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="113" column="65" selection-start-line="113" selection-start-column="59" selection-end-line="113" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/post1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1815">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/tags/show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="112" column="65" selection-start-line="112" selection-start-column="65" selection-end-line="112" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/posts/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="68" column="28" selection-start-line="68" selection-start-column="28" selection-end-line="68" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3209">
+          <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/mail/contact_me.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/contact_me.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <marker date="1479871507675" expanded="true" signature="1472:1479" ph="×" />
+            <marker date="1479871507675" expanded="true" signature="2150:2157" ph="×" />
+          </folding>
         </state>
       </provider>
     </entry>

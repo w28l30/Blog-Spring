@@ -14,10 +14,12 @@ public class AppSetting {
     private String siteName = "SpringBlog";
     private String siteSlogan = "An interesting place to discover";
     private Integer pageSize = 5;
+    private String aboutMe = "My name is w28l30";
 
     public static final String SITE_NAME = "site_name";
     public static final String SITE_SLOGAN = "site_slogan";
     public static final String PAGE_SIZE = "page_size";
+    public static final String ABOUT_ME = "about_me";
 
     public String getSiteName(){
         return (String) settingService.get(SITE_NAME, siteName);
@@ -44,5 +46,12 @@ public class AppSetting {
     public void setSiteSlogan(String siteSlogan) {
         this.siteSlogan = siteSlogan;
         settingService.put(SITE_SLOGAN, siteSlogan);
+    }
+
+    public String getAboutMe() {return (String) settingService.get(ABOUT_ME, aboutMe);}
+
+    public void setAboutMe(String aboutMe) {
+        this.aboutMe = aboutMe;
+        settingService.put(ABOUT_ME, aboutMe);
     }
 }

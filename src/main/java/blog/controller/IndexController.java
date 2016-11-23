@@ -50,12 +50,15 @@ public class IndexController {
         return "index1";
     }
     @RequestMapping(value = "/contact")
-    public String contact() {
+    public String contact(Model model) {
+        model.addAttribute("appSetting", appSetting);
         return "contact";
     }
 
     @RequestMapping(value = "/about")
-    public String about() {
+    public String about(Model model) {
+        model.addAttribute("appSetting", appSetting);
         return "about";
     }
+
 }

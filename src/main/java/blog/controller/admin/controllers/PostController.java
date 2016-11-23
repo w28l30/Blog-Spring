@@ -80,6 +80,7 @@ public class PostController {
         logger.info("Tag {}", tags);
         postForm.setTags(tags);
 
+        post.setContent(HtmlUtils.htmlUnescape(post.getContent()));
         model.addAttribute("post", post);
         model.addAttribute("postForm", postForm);
         model.addAttribute("appSetting", appSetting);

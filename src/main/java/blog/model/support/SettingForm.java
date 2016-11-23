@@ -20,4 +20,6 @@ public class SettingForm {
     @NotNull
     private Integer pageSize;
 
+    @NotNull
+    private String aboutMe;
 }

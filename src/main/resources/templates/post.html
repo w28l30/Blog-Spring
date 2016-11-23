@@ -20,7 +20,7 @@
 </head>
 <nav th:replace="/layout/navbar::nav"></nav>
 <body>
-<div class="container" >
+<div class="container">
 
     <div class="row">
 
@@ -28,8 +28,9 @@
             <div class="page-header">
                 <h2 th:text="${post.title}">Cum sociis</h2>
 
-                <p id="pos" class="blog-post-meta" th:text="${#dates.format(post.created, 'yyyy-MM-dd')}">2015年2月3日 分组：<a
-                        href="#">Web开发</a></p>
+                <p id="pos" class="blog-post-meta" th:text="${#dates.format(post.created, 'yyyy-MM-dd')}">2015年2月3日
+                    分组：<a
+                            href="#">Web开发</a></p>
             </div>
 
             <div class="post-content" id="post-content">
@@ -37,8 +38,10 @@
 
             <nav>
                 <ul class="pager">
-                    <li class="previous" id="pre"><a th:href="@{'/posts/previousPage/'+${post.id}}"><span aria-hidden="true">&larr;</span> 上一篇</a></li>
-                    <li class="next"><a th:href="@{'/posts/nextPage/'+${post.id}}">下一篇 <span aria-hidden="true">&rarr;</span></a></li>
+                    <li class="previous" id="pre"><a th:href="@{'/posts/previousPage/'+${post.id}}"><span
+                            aria-hidden="true">&larr;</span> 上一篇</a></li>
+                    <li class="next"><a th:href="@{'/posts/nextPage/'+${post.id}}">下一篇 <span
+                            aria-hidden="true">&rarr;</span></a></li>
                 </ul>
             </nav>
 
@@ -47,44 +50,14 @@
                 <div class="blog-post" id="blog-post">
 
                     <p class="blog-post-tag" th:text="${tag.name}">Amet risus. Dolor ultrices justo, praesent eos nisl
-                        lacus, consectetuer vitae lorem cras magna dolor, mauris libero turpis aliquam sed, at sapien tellus
-                        penatibus accumsan nec. Parturient amet felis morbi. Quis ac penatibus elementum lacus, vestibulum sem
+                        lacus, consectetuer vitae lorem cras magna dolor, mauris libero turpis aliquam sed, at sapien
+                        tellus
+                        penatibus accumsan nec. Parturient amet felis morbi. Quis ac penatibus elementum lacus,
+                        vestibulum sem
                         tellus arcu.</p>
                 </div>
             </div>
-
             <div th:include="/layout/disqus::content"></div>
-            <!--<script>-->
-
-                <!--/**-->
-                 <!--*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.-->
-                 <!--*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/-->
-                <!--/*-->
-                 <!--var disqus_config = function () {-->
-                 <!--this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable-->
-                 <!--this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable-->
-                 <!--};-->
-                 <!--*/-->
-                <!--(function() { // DON'T EDIT BELOW THIS LINE-->
-                    <!--var d = document, s = d.createElement('script');-->
-                    <!--s.src = '//w28l30.disqus.com/embed.js';-->
-                    <!--s.setAttribute('data-timestamp', +new Date());-->
-                    <!--(d.head || d.body).appendChild(s);-->
-                <!--})();-->
-            <!--</script>-->
-            <!--<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>-->
-            <!--<form th:action="|/posts/${post.id}/comments|" method="post">-->
-                <!--<div class="form-group">-->
-                    <!--<textarea name="content" id="new-comment" class="form-control"></textarea>-->
-
-                    <!--<div class="alert alert-danger" style="display: none;"></div>-->
-                <!--</div>-->
-
-                <!--<div class="form-group">-->
-                    <!--<input type="submit" class="btn btn-primary" value="发布"/>-->
-                <!--</div>-->
-            <!--</form>-->
-
         </div>
 
 
@@ -98,7 +71,8 @@
                         <a>lorem@example.com</a>
                     </div>
                 </div>
-                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in, nec
+                <p>Ornare sapien rhoncus, nec mi hendrerit. Ante aliquam dui arcu, diam sodales erat felis dolor sed in,
+                    nec
                     placerat non.</p>
             </div>
             <div class="sidebar-module">

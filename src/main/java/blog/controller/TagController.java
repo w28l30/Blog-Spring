@@ -52,6 +52,18 @@ public class TagController {
         List<Post> posts = postService.getPostsByTag(tagName);
         PageInfo pageInfo = new PageInfo(posts);
 
+        if (pageInfo.isIsLastPage()) {
+            model.addAttribute("isLast", true);
+        } else {
+            model.addAttribute("isLast", false);
+        }
+
+        if (pageInfo.isIsFirstPage()) {
+            model.addAttribute("isFirst", true);
+        } else {
+            model.addAttribute("isFirst", false);
+        }
+
         model.addAttribute("appSetting", appSetting);
         model.addAttribute("tag", tag);
         model.addAttribute("posts", posts);
